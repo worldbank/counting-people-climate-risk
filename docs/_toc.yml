@@ -11,9 +11,12 @@ parts:
       - file: docs/04_risk
       - file: docs/05_limitations
   - caption: Dashboard
+    chapters:
       - file: docs/dashboard
   - caption: Reproducibility
+    chapters:
       - file: docs/reproducibility
   - caption: Links
+    chapters:
       - url: https://scorecard.worldbank.org/en/scorecard/our-vision#planet
         title: WBG Scorecard Vision Indicators
