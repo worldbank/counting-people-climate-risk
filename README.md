@@ -9,29 +9,18 @@ This site describes the methodology implemented by the World Bank to calculate t
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses. 
 
 Four climate-related hazard events are considered:
-1. Agricultural droughts 
-2. Floods
-3.  Heatwaves
-🌀 Tropical cyclones
+| **Agricultural droughts** | 🌾 |
+| **Floods**                | 🌊 |
+| **Heatwaves**           | ☀️ |
+| **Tropical cyclones**     | 🌀 |
 
 Seven dimensions of vulnerability are considered:
-* Physically vulnerable:
-
-    🚰 No access to water
-    
-    🔌 No access to electricity
-    
-    🏥 Low access to services and markets
-    
-* Unable to cope:
-
-    💰 Low income
-    
-    ✏️ Low education
-    
-    🏦 No access to finance
-    
-    ☂️ No access to social protection
+| **Unable to cope**               | **Physically vulnerable**                   |
+|----------------------------------|---------------------------------------------|
+| 💰 Low income                     | 🚰 No access to water                        |
+| ✏️ Low education                  | 🔌 No access to electricity                  |
+| 🏦 No access to finance           | 🏥 Low accessibility to services and markets |
+| ☂️ No access to social protection |                                             |
 
 The [methodology](docs/01method_intro.md) begins with a non-technical summary. This is followed by four chapters that dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md)
 
