@@ -6,12 +6,13 @@ This site describes the methodology implemented by the World Bank to calculate t
 
 ## Overview
 
-People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses. 
+People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses for the Vision Indicator. 
 
 Four climate-related hazard events are considered:
 | **Agricultural droughts** | 🌾 |
+|---------------------------|---|
 | **Floods**                | 🌊 |
-| **Heatwaves**           | ☀️ |
+| **Heatwaves**             | 🌡️️ |
 | **Tropical cyclones**     | 🌀 |
 
 Seven dimensions of vulnerability are considered:
