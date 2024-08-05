@@ -6,7 +6,7 @@ This site describes the methodology implemented by the World Bank to calculate t
 
 ## Overview
 
-For the Vision Indicator, people at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses, using a set of agreed thresholds.
+People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, using a set of agreed thresholds.
 
 Currently, exposure to four climate-related hazard events is considered:
 * **Agricultural droughts**
