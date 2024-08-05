@@ -2,23 +2,21 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
+  - caption: Methodology
     numbered: True
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-      - file: notebooks/bibliography.ipynb
-  - caption: Gallery
+      - file: docs/01method_intro
+      - file: docs/02method_data
+      - file: docs/03method_exposure
+      - file: docs/04method_vulnerability
+      - file: docs/05method_risk
+      - file: docs/limitations
+  - caption: Dashboard
     chapters:
-      - file: docs/gallery
-  - caption: Additional Resources
+  - caption: Reproducibility
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file: docs/reproducibility
+  - caption: Links
+    chapters:
+      - url: https://scorecard.worldbank.org/en/scorecard/our-vision#planet
+        title: WBG Scorecard Vision Indicators
