@@ -25,6 +25,6 @@ Seven dimensions of vulnerability are considered:
 
 The [methodology](docs/01method_intro.md) begins with a non-technical summary. Four chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
 
-[Details to reproduce estimates](docs/reproducibility.md) are provided. All code is available on the [Github repository](https://github.com/worldbank/counting-people-climate-risk), however access to some input datasets is restricted. The replication package has been verified: [Reproducibility Certificate and package](https://reproducibility.worldbank.org/index.php/home)
+[Replication code](https://github.com/worldbank/counting-people-climate-risk) and [documentation to reproduce estimates](docs/reproducibility.md) have also been published. The replication package has been verified: [Reproducibility Certificate and package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted due to licensing.
 
 
