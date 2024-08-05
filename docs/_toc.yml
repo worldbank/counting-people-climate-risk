@@ -5,17 +5,17 @@ parts:
   - caption: Methodology
     numbered: True
     chapters:
-      - file: docs/01method_intro.Rmd
-      - file: docs/02method_data.Rmd
-      - file: docs/03method_exposure.Rmd
-      - file: docs/04method_risk.Rmd
-      - file: docs/limitations.Rmd
+      - file: docs/01method_intro
+      - file: docs/02method_data
+      - file: docs/03method_exposure
+      - file: docs/04method_risk
+      - file: docs/limitations
   - caption: Dashboard
     chapters: 
-      - file: docs/dashboard.Rmd
+      - file: docs/dashboard
   - caption: Reproducibility
     chapters:
-      - file: docs/reproducibility.Rmd
+      - file: docs/reproducibility
   - caption: Links
     chapters:
       - url: https://scorecard.worldbank.org/en/scorecard/our-vision#planet
