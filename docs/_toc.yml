@@ -5,11 +5,11 @@ parts:
   - caption: Methodology
     numbered: True
     chapters:
-      - file: docs/01method_intro
-      - file: docs/02method_data
-      - file: docs/03method_exposure
-      - file: docs/04method_risk
-      - file: docs/limitations
+      - file: docs/01_intro
+      - file: docs/02_data
+      - file: docs/03_exposure
+      - file: docs/04_risk
+      - file: docs/05_limitations
   - caption: Dashboard
     chapters: 
       - file: docs/dashboard
