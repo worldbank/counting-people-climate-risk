@@ -2,7 +2,7 @@
 
 This site describes the methodology implemented by the World Bank to calculate the percentage of people at high risk from climate-related hazards for the [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). 
 
-**image?**
+**MAP HERE?**
 
 ## Overview
 
@@ -14,7 +14,7 @@ Currently, exposure to four climate-related hazard events is considered:
 * **Heatwaves**
 * **Tropical cyclones**
 
-Data on seven dimensions of vulnerability are used:
+Vulnerability is assessed using indicators for seven dimensions:
 | **Unable to cope**               | **Physically vulnerable**                   |
 |----------------------------------|---------------------------------------------|
 | 💰 Low income                     | 🚰 No access to water                        |
@@ -23,7 +23,7 @@ Data on seven dimensions of vulnerability are used:
 | ☂️ No access to social protection |                                             |
 
 ## Methodology
-The [methodology](docs/01method_intro.md) begins with a non-technical summary. Four chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
+The [methodology](docs/01method_intro.md) begins with a non-technical summary. This is followed by four chapters that dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
 
 ## Dashboard
 
