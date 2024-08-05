@@ -13,6 +13,7 @@ parts:
       - file: docs/limitations
   - caption: Dashboard
     chapters:
+      - file: 
   - caption: Reproducibility
     chapters:
       - file: docs/reproducibility
