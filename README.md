@@ -2,7 +2,7 @@
 
 This site describes the methodology implemented by the World Bank to calculate the percentage of people at high risk from climate-related hazards for the [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). 
 
-<img src="docs/images/RP100_exp_any_pct.png" alt="One estimate of exposure to climate-related hazards" width="200"/>
+![Exposure to climate-related hazards](docs/images/RP100_exp_any_pct.png)
 
 ## Overview
 
@@ -31,5 +31,5 @@ The [methodology](docs/01method_intro.md) begins with a non-technical summary. T
 
 ## Reproducibility
 
-[Documentation to reproduce estimates](docs/reproducibility.md) is also published on this site and source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is available from the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted.
+[Documentation to reproduce estimates](docs/reproducibility.md) is published on this site and source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is included in the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Note, access to some input data is restricted.
 
