@@ -12,8 +12,8 @@ parts:
       - file: docs/05method_risk
       - file: docs/limitations
   - caption: Dashboard
-    chapters:
-      - file: 
+    chapters: 
+      - file: docs/dashboard
   - caption: Reproducibility
     chapters:
       - file: docs/reproducibility
