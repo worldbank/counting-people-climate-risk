@@ -5,6 +5,7 @@ This site describes the methodology implemented by the World Bank to calculate t
 ![](docs/images/RP100_exp_any_pct.png)
 
 ## Overview
+
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, using a set of agreed thresholds.
 
 Exposure to four climate-related hazard events is considered:
@@ -22,10 +23,13 @@ Vulnerability is assessed based on seven indicators:
 | ☂️ No access to social protection |                                             |
 
 ## Methodology
+
 The [methodology](docs/01method_intro.md) begins with a non-technical summary. This is followed by three chapters that dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
 
 ## Dashboard
 
+
 ## Reproducibility
-[Documentation and code to reproduce estimates](docs/reproducibility.md) are available at this site and from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is available from the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted.
+
+[Documentation to reproduce estimates](docs/reproducibility.md) is also published on this site and source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is available from the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted.
 
