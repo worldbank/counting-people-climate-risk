@@ -6,15 +6,15 @@ This site describes the methodology implemented by the World Bank to calculate t
 
 ## Overview
 
-People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses for the Vision Indicator. 
+For the Vision Indicator, people at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable to experiencing losses, using a set of agreed thresholds.
 
-Four climate-related hazard events are considered:
+Exposure to four climate-related hazard events is currently considered:
 * **Agricultural droughts**
 * **Floods**
 * **Heatwaves**
 * **Tropical cyclones**
 
-Seven dimensions of vulnerability are considered:
+Data on seven dimensions of vulnerability are used:
 | **Unable to cope**               | **Physically vulnerable**                   |
 |----------------------------------|---------------------------------------------|
 | 💰 Low income                     | 🚰 No access to water                        |
@@ -24,6 +24,8 @@ Seven dimensions of vulnerability are considered:
 
 ## Methodology
 The [methodology](docs/01method_intro.md) begins with a non-technical summary. Four chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
+
+## Dashboard
 
 ## Reproducibility
 [Documentation and code to reproduce estimates](docs/reproducibility.md) are available at this site and from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is available from the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted.
