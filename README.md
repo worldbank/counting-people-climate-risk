@@ -2,7 +2,7 @@
 
 This site describes the methodology implemented by the World Bank to calculate the percentage of people at high risk from climate-related hazards for the [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). 
 
-![](docs/images/RP100_exp_any_pct.png)
+![Exposure to climate-related hazards](docs/images/RP100_exp_any_pct.png)
 
 ## Overview
 
