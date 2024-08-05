@@ -7,7 +7,7 @@ This site describes the methodology implemented by the World Bank to calculate t
 ## Overview
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, using a set of agreed thresholds.
 
-Currently, exposure to four climate-related hazard events is considered:
+Exposure to four climate-related hazard events is considered:
 * **Agricultural droughts**
 * **Floods**
 * **Heatwaves**

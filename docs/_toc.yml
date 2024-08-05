@@ -18,5 +18,5 @@ parts:
       - file: docs/reproducibility
   - caption: Links
     chapters:
-      - url: https://scorecard.worldbank.org/en/scorecard/our-vision#planet
+      - url: https://scorecard.worldbank.org/en/scorecard/our-vision
         title: WBG Scorecard Vision Indicators
