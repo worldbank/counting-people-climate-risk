@@ -4,7 +4,7 @@ This site describes the methodology implemented by the World Bank to calculate t
 
 ![One estimate of exposure to climate-related hazards](docs/images/RP100_exp_any_pct.png)
 
-<sup>*Note*: The map shows exposure to climate-related hazards, not the Vision Indicator.<sup>
+<sup>*Note*: The map shows one estimate of exposure to climate-related hazards, not the Vision Indicator.<sup>
 
 ## Overview
 
