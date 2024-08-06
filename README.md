@@ -26,7 +26,7 @@ Vulnerability is assessed based on seven indicators:
 
 ## Methodology
 
-The [methodology](docs/01method_intro.md) begins with a non-technical summary. This is followed by three chapters that dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/limitations.md).
+The [methodology](docs/01_intro.md) begins with a non-technical summary. The following chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/05_limitations.md).
 
 ## Dashboard
 
