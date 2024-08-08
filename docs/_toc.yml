@@ -12,7 +12,9 @@ parts:
       - file: docs/05_limitations
   - caption: Dashboard
     chapters:
-      - file: dash.html
+      - file: docs/dash.html
+        title: Dash
+      - file: docs/dashboard
   - caption: Reproducibility
     chapters:
       - file: docs/reproducibility
