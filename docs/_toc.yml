@@ -12,7 +12,7 @@ parts:
       - file: docs/05_limitations
   - caption: Dashboard
     chapters:
-      - file: docs/dashboard
+      - file: dash.html
   - caption: Reproducibility
     chapters:
       - file: docs/reproducibility
