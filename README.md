@@ -29,7 +29,8 @@ People at high risk from climate-related hazards are defined as those exposed to
 
 The methodology begins with a [non-technical summary](docs/01_intro.md). The following chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/05_limitations.md).
 
-## [Dashboard](docs/dashboard.md)
+## Dashboard
+A [dashboard](docs/dashboard.md) is available for internal World Bank users to explore the data.
 
 ## Reproducibility
 
