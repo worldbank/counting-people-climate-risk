@@ -17,13 +17,13 @@ People at high risk from climate-related hazards are defined as those exposed to
 * Tropical cyclones
 
 **Vulnerability** is assessed using seven indicators:
-* (:moneybag:) Income
-* (:pencil2:) Education
-* (:bank:) Access to finance
-* (:umbrella:) Access to social protection
-* (:potable_water:) Access to drinking water
-* (:electric_plug:) Access to electricity
-* (:hospital:) Access to services and markets
+* 💰 Income
+* ✏️ Education
+* 🏦 Access to finance
+* ☂️ Access to social protection
+* 🚰 Access to drinking water
+* 💡 Access to electricity
+* 🏥 Access to services and markets
 
 ## Methodology
 
