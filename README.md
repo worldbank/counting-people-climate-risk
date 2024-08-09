@@ -8,28 +8,28 @@ This site describes the methodology implemented by the World Bank to calculate t
 
 ## Overview
 
-People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, using a set of agreed thresholds.
+People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, according to specific thresholds.
 
-Exposure to four climate-related hazard events is considered:
-* **Agricultural droughts**
-* **Floods**
-* **Heatwaves**
-* **Tropical cyclones**
+**Exposure** to four climate-related hazard events is considered:
+* Agricultural droughts
+* Floods
+* Heatwaves
+* Tropical cyclones
 
-Vulnerability is assessed based on seven indicators:
-| **Unable to cope**               | **Physically vulnerable**                   |
-|----------------------------------|---------------------------------------------|
-| 💰 Low income                     | 🚰 No access to water                        |
-| ✏️ Low education                  | 🔌 No access to electricity                  |
-| 🏦 No access to finance           | 🏥 Low accessibility to services and markets |
-| ☂️ No access to social protection |                                             |
+**Vulnerability** is assessed using seven indicators:
+💰  Income
+✏   Education
+🏦  Access to finance
+☂   Access to social protection
+🚰  Access to drinking water
+🔌  Access to electricity
+🏥  Access to services and markets
 
 ## Methodology
 
 The [methodology](docs/01_intro.md) begins with a non-technical summary. The following chapters dig into the data and analysis in detail. The final chapter discusses important [limitations](docs/05_limitations.md).
 
-## Dashboard
-
+## [Dashboard](docs/dashboard.md)
 
 ## Reproducibility
 
