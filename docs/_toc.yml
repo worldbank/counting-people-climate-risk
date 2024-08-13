@@ -5,6 +5,7 @@ parts:
   - caption: Methodology
     chapters:
       - file: docs/01_intro
+    chapters:
     numbered: True
       - file: docs/02_data
       - file: docs/03_exposure
