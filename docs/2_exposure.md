@@ -1,4 +1,4 @@
-# Measuring exposure
+# 2 Determining who is exposed
 
 The exposed population is estimated by combining global gridded population and hazard datasets. Each grid cell in the global population dataset is classified by urban/rural typology and exposure to any combination of the four hazard events using the thresholds specified in Table 2. 
 

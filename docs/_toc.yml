@@ -4,13 +4,13 @@ root: README
 parts:
   - caption: Methodology
     chapters:
-      - file: docs/01_intro
-    chapters:
-    numbered: True
-      - file: docs/02_data
-      - file: docs/03_exposure
-      - file: docs/04_risk
-      - file: docs/05_limitations
+      - file: docs/0_summary
+      - file: docs/1_data
+      - file: docs/2_exposure
+      - file: docs/3_vulnerability
+      - file: docs/4_risk
+      - file: docs/5_aggregates
+      - file: docs/limitations
   - caption: Data
     chapters:
       - file: docs/dashboard

@@ -1,4 +1,6 @@
-# Determining who is exposed and vulnerable 
+
+# 4 Determining who is at risk
+
 There are three steps undertaken to determine who of the exposed are vulnerable: (i) spatial data on vulnera-bility is overlaid with the exposure data at the grid level, (ii) the grid level data is aggregated to subnational boundaries, and (iii) subnational survey data on vulnerability is overlaid with the aggregated grid data. 
 
 ## Spatial data on vulnerability 
