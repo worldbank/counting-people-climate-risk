@@ -3,9 +3,9 @@ root: README
 
 parts:
   - caption: Methodology
-    numbered: True
     chapters:
       - file: docs/01_intro
+    numbered: True
       - file: docs/02_data
       - file: docs/03_exposure
       - file: docs/04_risk

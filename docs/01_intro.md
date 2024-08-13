@@ -9,7 +9,13 @@ Figure 1 summarizes the measure.
 
 The indicator currently considers a subset of climate hazards using historical data, a subset of vulnerability di-mensions, and an aggregation methodology similar to approaches used for multidimensional poverty measures. The methodology will be revised over time as new data are collected and methodologies.
 
-## Development relevance
-At any one time some households are experiencing income growth and moving out of poverty, whilst others are experiencing setbacks and falling into poverty (Dang and Dabalen, 2018). Poverty reduction requires a focus on both advancing welfare gains and protecting households from setbacks. Climate-related hazards are one type of setback experienced by households and are increasing in frequency with climate change (Hallegatte et al., 2016). Not only do these extreme weather events increase poverty when they occur, they cast a long shadow on welfare, as they can result in lost assets and investments that limit welfare gains for many years to come. Additionally, highly vulnerable households sometimes engage in costly behavior to avoid or respond to climate-related hazards, such as reduced health or education spending or forced sale of assets, which can af-fect people’s – and especially children’s – prospects for decades.
+## Step 1: Acquiring climate hazard, population and vulnerability data
 
-People with low incomes, with limited access to resources and basic services, and in fragile and conflict-affected contexts are most at risk when facing these extreme weather events.  This indicator tracks those who are at high risk from these extreme weather events, and reducing this global number is important for achieving suc-cessful development and poverty reduction.  This indicator accordingly supports the ongoing work to measure progress on the World Bank’s new vision of “a world free of poverty on a livable planet”. 
+## Step 2: Estimating the the population exposed
+
+## Step 3: Fusing vulnerability data
+
+## Step 4: Estimating the population at risk
+
+## Step 5: Calculating global and regional aggregates
+
