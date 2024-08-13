@@ -10,7 +10,7 @@ parts:
       - file: docs/03_exposure
       - file: docs/04_risk
       - file: docs/05_limitations
-  - caption: Dashboard
+  - caption: Data
     chapters:
       - file: docs/dashboard
   - caption: Reproducibility
