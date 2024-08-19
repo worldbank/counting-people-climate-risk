@@ -1,5 +1,6 @@
 # 1 Acquiring hazard, population and vulnerability data
 
+
 ## !UNDER CONSTRUCTION!
 
 ## Population Data:
