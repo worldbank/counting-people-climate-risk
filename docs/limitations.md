@@ -1,5 +1,9 @@
 # Limitations
 
+
+## !UNDER CONSTRUCTION!
+
+
 Measuring risk from climate hazards is a complex and data intensive endeavor that requires estimating where climate-related hazards exist, the level of exposure of populations and assets, and the extent that those exposed would be vulnerable or adversely affected. The proposed methodology is a first step, and it will be improved over time along three dimensions:
 *	*Coverage*. The first version of the indicator will cover 80 countries, representing 80 percent of the world population, and we will work to expand coverage to new countries over time. 
 *	*Lag and updating*. The first version of the indicator will be for 2021, due to lags in some inputs into the indicator. It will be updated annually based on the latest data available, and methodologies to reduce the lag through nowcasting will be explored.

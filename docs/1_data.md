@@ -1,5 +1,7 @@
 # 1 Acquiring hazard, population and vulnerability data
 
+## !UNDER CONSTRUCTION!
+
 ## Population Data:
 The indicator uses gridded population data from the Global Human Settlement Layer (GHSL) produced by the Joint Research Centre, European Union (Schiavina, Freire, Alessandra, and MacManus, 2023). The GHS-POP – R2023A dataset depicts the distribution of human population, expressed as the number of people per cell. Resi-dential population estimates at 5-year intervals from 1975 to 2030 are derived from the raw global census data harmonized by CIESIN for the Gridded Population of the World, version 4.11 (GPWv4.11), and disaggregated from census or administrative units to grid cells, informed by the distribution, classification, and volume of built-up as mapped in the GHSL global layers per corresponding epoch. The disaggregation methodology is de-scribed in a peer reviewed paper (Freire et al., 2016). The populations of GHSL are closer to statistical values than alternatives such as WorldPop because the main data source is statistical data and the spatialization meth-od maintains the population in the administrative region (Chen et al. 2020). The GHS-POP – R2023A dataset with a spatial resolution of 3 arcseconds (approximately 90 m) is used for the indicator.
 

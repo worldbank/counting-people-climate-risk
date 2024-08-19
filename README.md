@@ -12,7 +12,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 
 **Exposure** to four climate-related hazard events is considered:
 * Agricultural droughts
-* Floods
+* Floods (pluvial, fluvial and coastal)
 * Heatwaves
 * Tropical cyclones
 

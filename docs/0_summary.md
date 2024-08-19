@@ -1,5 +1,7 @@
 # Non-technical summary
 
+## !UNDER CONSTRUCTION!
+
 ## Definition
 The percentage of people at high risk from climate-related hazards is defined as the share of people who are both exposed to a set of key climate-related hazards (floods, droughts, cyclones, and heat-waves) and highly vulnerable. Specifically, people are considered at high risk if they are exposed to at least one type of hazard event and highly vulnerable on at least one dimension of vulnerability. Seven vulnerability indicators are considered: income, educational attainment, access to electricity and water, access to financial instruments, access to social protection and physical accessibility to markets and services. These capture both the propensity to experience severe losses, for example, due to physical infrastructure and the inability to cope with and recover from losses given human capital, financial inclusion, and social protection systems.
 
