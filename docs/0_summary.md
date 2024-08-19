@@ -11,15 +11,15 @@ Figure 1 summarizes the measure.
 
 The indicator currently considers a subset of climate hazards using historical data, a subset of vulnerability di-mensions, and an aggregation methodology similar to approaches used for multidimensional poverty measures. The methodology will be revised over time as new data are collected and methodologies.
 
-### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
+### Step 1: [Acquiring hazard, population and vulnerability data](#1_data)
 
-### Step 2: [Determining who is exposed](2_exposure)
+### Step 2: [Determining who is exposed](#2_exposure)
 
-### Step 3: [Determining who is vulnerable](3_vulnerability)
+### Step 3: [Determining who is vulnerable](#3_vulnerability)
 
-### Step 4: [Determining who is at risk](4_risk)
+### Step 4: [Determining who is at risk](#4_risk)
 
-### Step 5: [Calculating global and regional aggregates](5_aggregates)
+### Step 5: [Calculating global and regional aggregates](#5_aggregates)
 
 ## Limitations
-There are... Limitations are discussed further [here](limitations).
+There are... Limitations are discussed further [here](#limitations).
