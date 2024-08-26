@@ -16,11 +16,19 @@ Different types of data from several sources are required to calculate the indic
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
+
+
 ### Step 3: [Determining who is vulnerable](3_vulnerability)
+
+
 
 ### Step 4: [Determining who is at risk](4_risk)
 
+
+
 ### Step 5: [Calculating global and regional aggregates](5_aggregates)
+
+
 
 ## Limitations
 There are... Limitations are discussed further [here](limitations).
