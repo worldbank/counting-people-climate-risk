@@ -1,17 +1,18 @@
 # Non-technical summary
 
-## !UNDER CONSTRUCTION!
+People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. This page summarizes the methodology used to calculate the indicator in non-technical terms. The summary is followed by five chapters that dig into these steps in detail.
 
-## Definition
-The percentage of people at high risk from climate-related hazards is defined as the share of people who are both exposed to a set of key climate-related hazards (floods, droughts, cyclones, and heat-waves) and highly vulnerable. Specifically, people are considered at high risk if they are exposed to at least one type of hazard event and highly vulnerable on at least one dimension of vulnerability. Seven vulnerability indicators are considered: income, educational attainment, access to electricity and water, access to financial instruments, access to social protection and physical accessibility to markets and services. These capture both the propensity to experience severe losses, for example, due to physical infrastructure and the inability to cope with and recover from losses given human capital, financial inclusion, and social protection systems.
+The figure below illustrates the general approach.
 
-This indicator follows the traditional risk framework in which risk is the combination of hazard, exposure, and vulnerability. The hazard is the potential occurrence of an extreme event; exposure is the people affected in the location of the hazard; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
+![Summary](docs/images/summary.png "Summary of method")
 
-Figure 1 summarizes the measure.
+The indicator builds on a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected people to the hazards (IPCC, 2021). Hazard is the potential occurrence of a physical event that may cause welfare losses; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
-The indicator currently considers a subset of climate hazards using historical data, a subset of vulnerability di-mensions, and an aggregation methodology similar to approaches used for multidimensional poverty measures. The methodology will be revised over time as new data are collected and methodologies.
+The indicator currently considers a subset of climate hazards, a subset of vulnerability dimensions, and an aggregation method similar those used to measure multidimensional poverty. It will be revised over time as new data are collected and methods are improved.
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
+
+Different types of data from several sources are required to calculate the indicator. To determine who is exposed, "gridded" spatial data is used. These datasets indicate the probability and intensity of each type of hazard event in a given location (grid cell) and the number of people that live there, and how urban the location is. To determine who is vulnerable, socioeconomic data from household surveys and other sources are first combined at household level and then aggregated to the geographic regions for which they can provide  representative statistics.
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
