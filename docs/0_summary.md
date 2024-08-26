@@ -1,4 +1,4 @@
-# Non-technical summary
+# Summary
 
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. This page summarizes the methodology used to calculate the indicator in non-technical terms.
 
