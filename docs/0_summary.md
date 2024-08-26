@@ -4,7 +4,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 
 The figure below illustrates the general approach.
 
-![Summary](docs/images/summary.png "Summary of method")
+![Summary](docs/images/summary.png)
 
 The indicator builds on a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected people to the hazards (IPCC, 2021). Hazard is the potential occurrence of a physical event that may cause welfare losses; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
