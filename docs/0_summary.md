@@ -25,13 +25,11 @@ Seven dimensions of **vulnerability**:
 | Access to electricity          | Household does not have access to electricity                                |
 | Access to services and markets | More than 2km from an all-season road and rural  |
 
-The indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
-
-The five steps to calculate the indicator are described in detail in the following chapters. First, data describing hazards, exposure and vulnerability are obtained from relevant sources. Second, spatial datasets are overlaid to determine the population exposed to above-threshold hazard events. Third, survey data are used to estimate and combine indicators of vulnerability. Fourth, exposure and vulnerability estimates are merged to calculate the population at high-risk. Fifth, global and regional estimates are calculated. 
+The five steps to calculate the indicator are summarised below and described in detail in the following chapters. Currently, the indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Different types of data are obtained from several sources to calculate the indicator. Spatial data are used to determine who is exposed. These "gridded" datasets indicate the probability and intensity of each type of hazard event in a given location (grid cell), the number of people living there, and the degree of urbanization. To determine who is vulnerable, indicators from national household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)) and other sources are combined and then aggregated to the geographic regions and rural/urban subgroups for which they provide representative statistics. The "Access to services and markets" dimension is based on gridded spatial data. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded data and survey based estimates.
+Data from several sources is used to calculate the indicator. Spatial ``gridded'' datasets are used to determine who is exposed. These indicate the probability and intensity of each type of hazard event in each location (grid cell), the number of people living there, and the degree of urbanization. Most data on vulnerability dimensions are estimated from household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)). Gridded spatial data is used for the "Access to services and markets" dimension. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded data and representative survey based estimates.
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
