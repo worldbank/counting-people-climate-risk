@@ -27,9 +27,6 @@ Seven dimensions of **vulnerability**:
 
 The indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
 
-
-![Summary](images/summary.png "Summary of method")
-
 The five steps to calculate the indicator are described in detail in the following chapters. First, data describing hazards, exposure and vulnerability are obtained from relevant sources. Second, spatial datasets are overlaid to determine the population exposed to above-threshold hazard events. Third, survey data are used to estimate and combine indicators of vulnerability. Fourth, exposure and vulnerability estimates are merged to calculate the population at high-risk. Fifth, global and regional estimates are calculated. 
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
