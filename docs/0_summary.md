@@ -19,7 +19,7 @@ Seven dimensions of **vulnerability**:
 |--------------------------------|------------------------------------------------------------------------------|
 | Income                         | Less than $2.15 (2017 PPP) per person per day                      |
 | Education                      | No household member has completed primary education                          |
-| Access to finance              | No household member has a bank or mobile money account                       |
+| Access to finance              | Household does not have a bank or mobile money account                       |
 | Access to social protection    | Household does not contribute to or benefit from social protection  |
 | Access to drinking water       | Household does not have access to improved drinking water                    |
 | Access to electricity          | Household does not have access to electricity                                |
@@ -29,7 +29,7 @@ The five steps to calculate the indicator are summarised below and described in 
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Data from several sources are required to calculate the indicator. Global ``gridded'' spatial datasets are used to determine who is exposed. These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most data on vulnerability dimensions are estimated from household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)). Gridded spatial data is used for the "Access to services and markets" dimension. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded data and representative survey based estimates.
+Data from several sources are required to calculate the indicator. Global ``gridded'' spatial datasets are used to determine who is exposed in [Step 2](2_exposure). These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most vulnerability indicators are estimated from household survey data - the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection) in [Step 3](3_vulnerability). Gridded spatial data is used to estimate the "Access to services and markets" dimension. Finally, boundary data mapping the geographic regions with representative survey estimates are required to merge these with the gridded spatial data in [Step 4](4_risk).
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
@@ -48,4 +48,6 @@ Currently, only the sample of countries with complete data on all vulnerability 
 
 
 ## Limitations
-There are... Limitations are discussed further [here](limitations).
+It is important to understand the limitations of the methodology and indicator. 
+
+Several limitations are discussed [here](limitations).
