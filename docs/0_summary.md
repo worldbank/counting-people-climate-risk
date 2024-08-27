@@ -15,15 +15,15 @@ People at high risk from climate-related hazards are defined as those exposed to
 | Tropical cyclone     | 100 years      | > Category 2 wind speed                           |
 
 Seven dimensions of **vulnerability**:
-| Dimension                      | Vulnerable cut-off                                                        |
+| Dimension                      | Vulnerable                                                        |
 |--------------------------------|------------------------------------------------------------------------------|
-| Income                         | Living on less than $2.15 (2017 PPP) per person per day                      |
+| Income                         | Less than $2.15 (2017 PPP) per person per day                      |
 | Education                      | No household member has completed primary education                          |
 | Access to finance              | No household member has a bank or mobile money account                       |
-| Access to social protection    | Household does not contribute to or benefit from a social protection program |
+| Access to social protection    | Household does not contribute to or benefit from social protection  |
 | Access to drinking water       | Household does not have access to improved drinking water                    |
 | Access to electricity          | Household does not have access to electricity                                |
-| Access to services and markets | Living more than 2km from an all-season road and rural (Rural Access Index)  |
+| Access to services and markets | More than 2km from an all-season road and rural  |
 
 The indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
 
