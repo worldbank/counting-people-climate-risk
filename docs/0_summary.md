@@ -2,7 +2,7 @@
 
 This page summarizes the method used to calculate the Vision Indicator. The methodology follows a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards. The hazard is the potential occurrence of a physical event that may cause welfare impacts; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
-![Framework](images/framework.png "Framework")
+<p style="text-align: center;">![Framework](images/framework.png "Framework")</p>
 
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
 
@@ -25,11 +25,11 @@ Seven dimensions of **vulnerability**:
 | Access to electricity          | Household does not have access to electricity                                |
 | Access to services and markets | More than 2km from an all-season road and rural  |
 
-The five steps to calculate the indicator are summarised below and described in detail in the following chapters. Currently, the indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
+Five steps to calculate the indicator are summarized below and described in the following chapters. The indicator currently uses data for a subset of hazards and vulnerability dimensions. The methodology will be revised as new data is collected and methods are improved.
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Data from several sources are required to calculate the indicator. Global ``gridded'' spatial datasets are used to determine who is exposed in [Step 2](2_exposure). These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most vulnerability indicators are estimated from household survey data - the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection) in [Step 3](3_vulnerability). Gridded spatial data is used to estimate the "Access to services and markets" dimension. Finally, boundary data mapping the geographic regions with representative survey estimates are required to merge these with the gridded spatial data in [Step 4](4_risk).
+Data from several sources are required to calculate the indicator. Global "gridded" spatial datasets are used to determine who is exposed in [Step 2](2_exposure). These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most vulnerability indicators are estimated from household survey data - the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection) in [Step 3](3_vulnerability). Gridded spatial data is used to estimate the "Access to services and markets" dimension. Finally, boundary data mapping the geographic regions with representative survey estimates are required to merge these with the gridded spatial data in [Step 4](4_risk).
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
