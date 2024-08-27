@@ -1,10 +1,12 @@
 # Summary
 
+The methodology follows a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards. The hazard is the potential occurrence of a physical event that may cause welfare impacts; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
+
+![Framework](images/framework.png "Hazard, exposure and vulnerability risk framework")
+
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. This page summarizes the methodology used to calculate the indicator in non-technical terms.
 
 ![Summary](images/summary.png "Summary of method")
-
-The indicator is based on a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards (IPCC, 2021). The hazard is the potential occurrence of a physical event that may cause welfare losses; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
 The indicator currently considers a subset of hazards and vulnerability dimensions, and uses an aggregation method similar to multidimensional poverty measures. The methodology will be revised over time as new data are collected and methods are improved.
 
