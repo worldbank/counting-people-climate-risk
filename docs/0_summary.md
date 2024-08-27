@@ -15,7 +15,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 | Tropical cyclone     | 100 years      | > Category 2 wind speed                           |
 
 Seven dimensions of **vulnerability**:
-| Dimension                      | Vulnerability cut-off                                                        |
+| Dimension                      | Vulnerable cut-off                                                        |
 |--------------------------------|------------------------------------------------------------------------------|
 | Income                         | Living on less than $2.15 (2017 PPP) per person per day                      |
 | Education                      | No household member has completed primary education                          |
