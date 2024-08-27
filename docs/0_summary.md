@@ -1,18 +1,40 @@
 # Summary
 
-The methodology follows a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards. The hazard is the potential occurrence of a physical event that may cause welfare impacts; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
+This page summarizes the method used to calculate the Vision Indicator. The methodology follows a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards. The hazard is the potential occurrence of a physical event that may cause welfare impacts; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
 ![Framework](images/framework.png "Framework")
 
-People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. This page summarizes the methodology used to calculate the indicator in non-technical terms.
+People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
+
+**Exposure** to four climate-related hazards: 
+| Hazard               | Return period  | Intensity threshold                               |
+|----------------------|----------------|---------------------------------------------------|
+| Agricultural drought | 40^ years      | > 30% cropland or pasture affected in rural areas |
+| Flood                | 100 years      | > 0.5 m inundation depth                          |
+| Heatwave             | 100 years      | > 33°C 5-day maximum Environmental Stress Index   |
+| Tropical cyclone     | 100 years      | > Category 2 wind speed                           |
+
+Seven dimensions of **vulnerability**:
+| Dimension                      | Vulnerability cut-off                                                        |
+|--------------------------------|------------------------------------------------------------------------------|
+| Income                         | Living on less than $2.15 (2017 PPP) per person per day                      |
+| Education                      | No household member has completed primary education                          |
+| Access to finance              | No household member has a bank or mobile money account                       |
+| Access to social protection    | Household does not contribute to or benefit from a social protection program |
+| Access to drinking water       | Household does not have access to improved drinking water                    |
+| Access to electricity          | Household does not have access to electricity                                |
+| Access to services and markets | Living more than 2km from an all-season road and rural (Rural Access Index)  |
+
+The indicator uses data for a subset of important hazards and dimensions of vulnerability. The methodology will be revised over time as new data is collected and methods are improved.
+
 
 ![Summary](images/summary.png "Summary of method")
 
-The indicator currently considers a subset of hazards and vulnerability dimensions, and uses an aggregation method similar to multidimensional poverty measures. The methodology will be revised over time as new data are collected and methods are improved.
+The five steps to calculate the indicator are described in detail in the following chapters. First, data describing hazards, exposure and vulnerability are obtained from relevant sources. Second, spatial datasets are overlaid to determine the population exposed to above-threshold hazard events. Third, survey data are used to estimate and combine indicators of vulnerability. Fourth, exposure and vulnerability estimates are merged to calculate the population at high-risk. Fifth, global and regional estimates are calculated. 
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Different types of data from several sources are required to calculate the indicator. To determine who is exposed, "gridded" spatial data are used. These datasets indicate the probability and intensity of each type of hazard event in a given location (grid cell), the number of people living there, and the degree of urbanization. To determine who is vulnerable, socioeconomic indicators from household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)) and other sources are combined and then aggregated to the geographic regions and rural/urban sub-populations for which they provide representative statistics. Gridded spatial data is used for the "Access to services and markets" dimension of vulnerability. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded exposure data and survey based vulnerability data.
+Different types of data from several sources are required to calculate the indicator. Spatial data are used to determine who is exposed. These "gridded" datasets indicate the probability and intensity of each type of hazard event in a given location (grid cell), the number of people living there, and the degree of urbanization. To determine who is vulnerable, indicators from national household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)) and other sources are combined and then aggregated to the geographic regions and rural/urban sub-populations for which they provide representative statistics. Gridded spatial data is used for the "Access to services and markets" dimension. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded spatial data and survey based estimates.
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
@@ -27,7 +49,7 @@ Different types of data from several sources are required to calculate the indic
 
 
 ### Step 5: [Calculating global and regional aggregates](5_aggregates)
-
+Currently, only the sample of countries with complete data on all vulnerability dimensions is used to calculate global and regional aggregates. These are reported when population coverage is sufficient.
 
 
 ## Limitations
