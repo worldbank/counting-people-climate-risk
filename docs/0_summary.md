@@ -2,7 +2,9 @@
 
 The methodology follows a standard framework used to assess risk in the context of climate change impacts. Risks result from interactions between climate-related hazards with the exposure and vulnerability of the affected population to the hazards. The hazard is the potential occurrence of a physical event that may cause welfare impacts; exposure is the presence of people in places that could be adversely affected; and vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
-<img src="docs/images/framework.png" width="200" height="200">
+<center>
+  <img src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png" width="200" height="200">
+</center>  
 
 People at high risk from climate-related hazards are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. This page summarizes the methodology used to calculate the indicator in non-technical terms.
 
