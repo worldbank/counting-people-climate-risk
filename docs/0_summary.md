@@ -29,7 +29,7 @@ The five steps to calculate the indicator are summarised below and described in 
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Data from several sources is used to calculate the indicator. Spatial ``gridded'' datasets are used to determine who is exposed. These indicate the probability and intensity of each type of hazard event in each location (grid cell), the number of people living there, and the degree of urbanization. Most data on vulnerability dimensions are estimated from household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)). Gridded spatial data is used for the "Access to services and markets" dimension. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded data and representative survey based estimates.
+Data from several sources are required to calculate the indicator. Global ``gridded'' spatial datasets are used to determine who is exposed. These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most data on vulnerability dimensions are estimated from household surveys (the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection)). Gridded spatial data is used for the "Access to services and markets" dimension. Lastly, boundary data mapping the regions represented by household surveys are required to merge the gridded data and representative survey based estimates.
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
