@@ -3,7 +3,7 @@
 This page summarizes the method used to estimate the population at high risk from climate-related hazards, a new [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). The methodology follows a widely adopted framework to assess risk in the context of climate change impacts. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
 
 <div align="center">
-	<img src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png">
+![Framework](docs/images/framework.png)
 </div>
 
 The hazard is the potential occurrence of a physical event that may cause welfare impacts. Exposure is the presence of people in places that could be adversely affected. Vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
@@ -35,7 +35,7 @@ The five steps to calculate the indicator are summarized below and details are p
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
-Data from several sources are required to calculate the indicator. Global "gridded" spatial datasets are used to determine who is exposed in [Step 2](2_exposure). These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most vulnerability indicators are estimated from household survey data in [Step 3](3_vulnerability) - the same [surveys used to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection). Gridded spatial data is used for the "access to services and markets"" dimension. Finally, boundary data mapping the geographic regions with representative survey-based estimates are required to merge gridded exposure data and survey-based vulnerability data [Step 4](4_risk).
+Data from several sources are required to calculate the indicator. Global "gridded" spatial datasets are used to determine who is exposed in [Step 2](2_exposure). These indicate the probability and intensity of each type of hazard in a given location (grid cell), the number of people living there, and the degree of urbanization. Most vulnerability indicators are estimated from household survey data in [Step 3](3_vulnerability) - the same [surveys used by the World Bank to measure poverty](https://datanalytics.worldbank.org/PIP-Methodology/acquiring.html#selection). Gridded spatial data is used for the "access to services and markets"" dimension. Finally, boundary data mapping the geographic regions with representative estimates from surveys are required to merge gridded exposure data and survey-based vulnerability data [Step 4](4_risk).
 
 ### Step 2: [Determining who is exposed](2_exposure)
 
