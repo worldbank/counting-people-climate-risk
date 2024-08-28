@@ -1,6 +1,6 @@
 # Summary
 
-This page summarizes the method used to estimate the population at high risk from climate-related hazards, a new [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). The methodology follows a widely used framework to assess risk in the context of climate change impacts. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
+This page summarizes the method used to estimate the population at high risk from climate-related hazards, a new [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). The methodology follows a widely used framework to assess risk in the context of climate change impacts. Risk is the potential for adverse consequences. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
 
 ![Framework](images/framework.png)
 
@@ -29,7 +29,7 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 | Access to electricity          | No access to electricity                                           |
 | Access to services and markets | More than 2km from an all-season road and rural                    |
 
-The five steps to calculate the indicator are summarized below and details are provided in the following chapters. The indicator currently uses data for a subset of climate-related hazards and dimensions of vulnerability. The methodology will be revised as new data is collected and methods are improved.
+Five steps to calculate the indicator are summarized below and the following chapters provide more detail.
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
