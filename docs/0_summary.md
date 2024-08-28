@@ -29,7 +29,7 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 | Access to electricity          | No access to electricity                                           |
 | Access to services and markets | More than 2km from an all-season road and rural                    |
 
-Five steps to calculate the indicator are summarized below and the following chapters provide more detail.
+Five steps to calculate the indicator are summarized below. The following chapters provide more detail.
 
 ### Step 1: [Acquiring hazard, population and vulnerability data](1_data)
 
@@ -41,12 +41,12 @@ The exposed population is estimated by combining global gridded population, degr
 
 ### Step 3: [Determining who is vulnerable](3_vulnerability)
 
-Estimating the share of households vulnerable on any dimension requires "fusing" data sources since information on all dimensions is not available from the same household survey. A simulation method is used to impute dimensions derived from other sources, including access to social protection and finance. This method preserves estimates for each population subgroup reported by alternate data sources, for example, the share of the poorest rural quintile without access to social protection. Random assignment of households within each population subgroup is repeated to account for household heterogeneity. The average share of households vulnerable on any (survey-based) dimension across all simulations is used to calculate the indicator. 
+Estimating the share of households vulnerable on any dimension requires "fusing" data sources since information on all dimensions is not available from the same household survey. A [simulation method]() is used to fuse dimensions derived from other sources, including access to social protection and finance. This method preserves estimates for each population subgroup reported by alternate data sources, for example, the share of the poorest rural quintile without access to social protection. Random assignment of households within each population subgroup is repeated to account for household heterogeneity. The average share of households vulnerable on any (survey-based) dimension across all simulations is used to calculate the indicator. 
 
-The share of the population vulnerable on the "access to services and markets" dimension is derived from gridded spatial data for each exposure category defined in [Step 2](2_exposure). This dimension is incorporated into the calculation of the final indicator in [Step 4](4_risk).
+The share of the population vulnerable on the "access to services and markets" dimension is [derived from gridded spatial data]() for each exposure category defined in [Step 2](2_exposure). This dimension is incorporated into the calculation of the final indicator in [Step 4](4_risk).
 
 ### Step 4: [Determining who is at risk](4_risk)
-To determine who is at risk, the exposure estimates from [Step 2](2_exposure) are aggregated to the same level as the representative survey-based vulnerability estimates from [Step 3](3_vulnerability). This involves (1) aggregating the population in each exposure category to the statistical regions represented in surveys; and (2) aligning the rural/urban classifications. With the exposure data aggregated to the same geographic and rural/urban units as the vulnerability data, the population exposed to any hazard and vulnerable on any dimension is be calculated.
+To determine who is at risk, the exposure estimates from [Step 2](2_exposure) are aggregated to the same level as the representative survey-based vulnerability estimates from [Step 3](3_vulnerability). This involves (1) [aggregating the population in each exposure category to the statistical regions represented in surveys](); and (2) [aligning the rural/urban classifications](). With the exposure data aggregated to the same geographic and rural/urban units as the vulnerability data, [the population exposed to any hazard and vulnerable on any dimension is calculated]().
 
 ### Step 5: [Calculating global and regional aggregates](5_aggregates)
 Global and regional aggregates are calculated from the sample of countries with sufficiently recent data for all vulnerability dimensions. For 2021, this includes 103 countries accounting for 86 percent of the global population. Aggregates are reported only when population coverage is sufficient.
