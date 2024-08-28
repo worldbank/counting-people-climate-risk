@@ -24,7 +24,7 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 | Income                         | Less than $2.15 (2017 PPP) per person per day                      |
 | Education                      | No member has completed primary education                          |
 | Access to finance              | No bank or mobile money account                                    |
-| Access to social protection    | Does not benefit nor contribute to a social protection program     |
+| Access to social protection    | Does not benefit or contribute to a social protection program     |
 | Access to drinking water       | No access to improved drinking water                               |
 | Access to electricity          | No access to electricity                                           |
 | Access to services and markets | More than 2km from an all-season road and rural                    |
