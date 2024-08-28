@@ -9,7 +9,7 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 **People at high risk from climate-related hazards** are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
 
 **Exposure** to four climate-related hazards is considered: 
-| Hazard               | Return period  | Intensity thresholds defining an exposed location |
+| Hazard               | Return period  | Intensity threshold defining an exposed location |
 |----------------------|----------------|---------------------------------------------------|
 | Agricultural drought | 40 years^      | > 30% cropland or pasture affected and rural  |
 | Flood                | 100 years      | > 0.5 m inundation depth                          |
@@ -19,7 +19,7 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 <sup>^based on 39 years of historical data.</sup>
 
 **Vulnerability** is assessed on seven dimensions:
-| Dimension                      | Thresholds defining a vulnerable household                         |
+| Dimension                      | Threshold defining a vulnerable household                         |
 |--------------------------------|--------------------------------------------------------------------|
 | Income                         | Less than $2.15 (2017 PPP) per person per day                      |
 | Education                      | No member has completed primary education                          |
