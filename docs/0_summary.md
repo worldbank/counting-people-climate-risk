@@ -1,9 +1,9 @@
 # Summary
 
-This page summarizes the method used to calculate the Vision Indicator. The methodology follows a widely adopted framework to assess risk in the context of climate change impacts. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
+This page summarizes the method used to estimate the population at high risk from climate-related hazards, a new [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). The methodology follows a widely adopted framework to assess risk in the context of climate change impacts. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
 
 <div align="center">
-	<img src="../docs/images/framework.png">
+	<img src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png">
 </div>
 
 The hazard is the potential occurrence of a physical event that may cause welfare impacts. Exposure is the presence of people in places that could be adversely affected. Vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
@@ -13,10 +13,11 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 **Exposure** to four climate-related hazards: 
 | Hazard               | Return period  | Intensity thresholds defining exposed locations   |
 |----------------------|----------------|---------------------------------------------------|
-| Agricultural drought | 40^ years      | > 30% cropland or pasture affected in rural areas |
+| Agricultural drought | 40 years^      | > 30% cropland or pasture affected in rural areas |
 | Flood                | 100 years      | > 0.5 m inundation depth                          |
 | Heatwave             | 100 years      | > 33°C 5-day maximum Environmental Stress Index   |
 | Tropical cyclone     | 100 years      | > Category 2 wind speed                           |
+
 <sup>^based on 39 years of historical data.</sup>
 
 Seven dimensions of **vulnerability**:
