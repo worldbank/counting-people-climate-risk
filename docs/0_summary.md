@@ -7,7 +7,7 @@ between climate-related **hazards** with the **exposure** and
 **vulnerability** of the affected population to the hazards.
 
 <div align="center">
-  <img src="images/framework.png">
+  <img src="docs/images/framework.png">
 </div>
 
 The hazard is the potential occurrence of a physical event that may
