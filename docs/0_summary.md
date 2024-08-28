@@ -47,7 +47,7 @@ The share of the population vulnerable on the "access to services and markets" d
 To determine who is at risk, the exposure estimates from [Step 2](2_exposure) are aggregated to the representative units of the survey-based vulnerability estimates from [Step 3](3_vulnerability). This involves (1) aggregating the population by exposure category to statistical boundary data corresponding with surveys; and (2) aligning the rural/urban classifications. Once the exposure data is aggregated to the same units (subnational regions and rural/urban population groups) as the vulnerability data, the population exposed to any hazard and vulnerable on any dimension can be calculated.
 
 ### Step 5: [Calculating global and regional aggregates](5_aggregates)
-Global and regional aggregates are calculated from the sample of countries with sufficiently recent data for all vulnerability dimensions. At the global level for 2021, this includes 103 countries accounting for 86 percent of the population. These aggregates are reported when population coverage is sufficient.
+Global and regional aggregates are calculated from the sample of countries with sufficiently recent data for all vulnerability dimensions. For 2021, this includes 103 countries accounting for 86 percent of the global population. Aggregates are reported only when population coverage is sufficient.
 
 
 ## Limitations
