@@ -6,19 +6,19 @@ This page summarizes the method used to estimate the population at high risk fro
 
 The hazard is the potential occurrence of a physical event that may cause welfare impacts. Exposure is the presence of people in places that could be adversely affected. Vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
-For the indicator, **People at high risk from climate-related hazards** are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
+**People at high risk from climate-related hazards** are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
 
-**Exposure** to four climate-related hazards: 
+**Exposure** to four climate-related hazards is considered: 
 | Hazard               | Return period  | Intensity thresholds defining an exposed location |
 |----------------------|----------------|---------------------------------------------------|
-| Agricultural drought | 40 years^      | > 30% cropland or pasture affected in rural areas |
+| Agricultural drought | 40 years^      | > 30% cropland or pasture affected and rural  |
 | Flood                | 100 years      | > 0.5 m inundation depth                          |
 | Heatwave             | 100 years      | > 33°C 5-day maximum Environmental Stress Index   |
 | Tropical cyclone     | 100 years      | > Category 2 wind speed                           |
 
 <sup>^based on 39 years of historical data.</sup>
 
-Seven dimensions of **vulnerability**:
+**Vulnerability** is assessed on seven dimensions:
 | Dimension                      | Thresholds defining a vulnerable household                         |
 |--------------------------------|--------------------------------------------------------------------|
 | Income                         | Less than $2.15 (2017 PPP) per person per day                      |
