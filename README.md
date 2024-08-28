@@ -16,7 +16,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 * Heatwaves
 * Tropical cyclones
 
-**Vulnerability** is assessed using seven dimensions:
+**Vulnerability** is assessed on seven dimensions:
 * 💰 Income
 * ✏️ Education
 * 🏦 Access to finance
