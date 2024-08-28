@@ -2,7 +2,7 @@
 
 This page summarizes the method used to estimate the population at high risk from climate-related hazards, a new [WBG Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). The methodology follows a widely adopted framework to assess risk in the context of climate change impacts. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
 
-![Framework](docs/images/framework.png)
+![Framework](images/framework.png)
 
 The hazard is the potential occurrence of a physical event that may cause welfare impacts. Exposure is the presence of people in places that could be adversely affected. Vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
@@ -52,5 +52,5 @@ To determine who is at risk, the exposure estimates from [Step 2](2_exposure) ar
 Global and regional aggregates are calculated from the sample of countries with sufficiently recent data for all vulnerability dimensions. For 2021, this includes 103 countries accounting for 86 percent of the global population. Aggregates are reported only when population coverage is sufficient.
 
 
-## Limitations
+### Limitations
 It is important to understand the limitations of the data and methodology. Data availability limits the global coverage of the indicator. Infrequent data collection means that the indicator is reported with a lag. The methodology also has limits related to the selection of thresholds, restricting the analysis to direct exposure, and assuming uniform vulnerability rates within regions with representative survey data. These are discussed in more detail [here](limitations). Quantifying risk from climate-related hazards is a complex task, and the current methodology is a first step. It will be improved over time to better address these limitations.
