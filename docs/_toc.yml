@@ -11,7 +11,7 @@ parts:
       - file: docs/4_risk
       - file: docs/5_aggregates
       - file: docs/limitations
-  - caption: Data
+  - caption: Results
     chapters:
       - file: docs/dashboard
   - caption: Reproducibility
