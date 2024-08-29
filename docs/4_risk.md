@@ -5,19 +5,13 @@
 
 
 
-There are three steps undertaken to determine who of the exposed are vulnerable: (i) spatial data on vulnera-bility is overlaid with the exposure data at the grid level, (ii) the grid level data is aggregated to subnational boundaries, and (iii) subnational survey data on vulnerability is overlaid with the aggregated grid data. 
-
-## Spatial data on vulnerability 
-The spatial data defining the accessibility vulnerability indicator is resampled (in the same manner as the expo-sure data) to align with the population grid. This classifies each rural grid cell as either more than 2 km or less than 2km distance to all-season roads. This is overlayed with the exposure data to determine the population exposed and vulnerable with respect to the spatial vulnerability dimensions. 
-
-## Aggregating grid level data to subnational boundaries
+## Aggregating exposure estimates to survey statistical regions
 The population count in each group is aggregated to the spatial units defined by the statistical boundary data. As described above, these spatial units correspond with geographic regions that have representative survey data and vary in size and population across countries. For partially covered grid cells, the population count is weighted by the fraction of the grid cell covered by the statistical region. The results can be summarized in a tabular format providing the estimated population by rural, exposure and accessibility status, for each statisti-cal region. All spatial data are processed and analyzed using R Statistical Software (R Core Team, 2023). 
 
-## Using survey data
-Estimating the share of households vulnerable on any dimension requires “fusing” different data sources since not all dimensions are available from the same household survey. Data on income, education, access to water and access to electricity are mostly available from the same survey in GMD. Data on social protection, finan-cial inclusion, and non-income dimensions missing in GMD for a particular country are based on other surveys (Findex, DHS, MICS), censuses or administrative datasets. Dimensions of vulnerability considered from these datasets can be summarized at rural/urban, welfare quintile, and in some cases, subnational level. These disaggregated statistics are used to fuse information about the vulnerability of population subgroups into GMD surveys at household level.
+## Aligning rural and urban classifications
 
-The simple fusion approach proceeds as follows. For each dimension not in GMD, each household is randomly assigned as being vulnerable or not based on the rate of vulnerability observed in the strata it belongs to (as measured in the additional survey source). This preserves summary statistics for each population subgroup, such as, for example, the rate of account ownership among the poorest quintile reported by Findex. Second, the share of households vulnerable on at least one dimension, including existing and imputed variables, is calculated at the representative unit level (GSAP regions). This random assignment and aggregation process is repeated 100 times to account for household heterogeneity within each subgroup. The average share of households vulnerable on at least one dimension across all 100 simulations is used to calculate the indicator.
 
+## Calculating the risk indicator
 The total number exposed is multiplied by the share households deprived in that administrative unit to deter-mine the number of people who are both exposed and vulnerable in that unit. This is then summed by country, region and globally to provide country, regional and global numbers on exposed and vulnerable. Implicitly, a uniform rate of vulnerability is assumed within each GSAP statistical area.  
 
 The number of people at risk to climate related hazards counts people exposed to at least one climate hazard and deprived on at least one dimension of vulnerability. All calculations, random assignment, and aggregation are processed and analyzed using Stata.

@@ -4,3 +4,6 @@
 
 ## !UNDER CONSTRUCTION!
 
+## Sample selection
+
+## Coverage rule
