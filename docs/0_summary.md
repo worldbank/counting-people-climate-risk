@@ -12,13 +12,12 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 | Hazard               | Return period  | Intensity threshold defining an exposed location |
 |----------------------|----------------|---------------------------------------------------|
 | Agricultural drought | 40 years[^1]      | > 30% cropland or pasture affected and rural  |
-| Flood                | 100 years[^2]      | > 0.5 m inundation depth                          |
-| Heatwave             | 100 years[^2]      | > 33°C 5-day maximum Environmental Stress Index   |
-| Tropical cyclone     | 100 years[^2]      | ≥ Category 2 wind speed                           |
+| Flood                | 100 years     | > 0.5 m inundation depth                          |
+| Heatwave             | 100 years      | > 33°C 5-day maximum Environmental Stress Index   |
+| Tropical cyclone     | 100 years      | ≥ Category 2 wind speed                           |
 
 [^1]: historical frequency based on 39 years of observations.
 
-[^2]: probabilistic model.
 
 **Vulnerability** is assessed on seven dimensions:
 | Dimension                      | Threshold defining a vulnerable household                         |

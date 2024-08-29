@@ -27,7 +27,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 
 ### Methodology
 
-The next page summarizes the methodology. The following chapters dig into each step required to calculate the indicator in detail. The final chapter discusses important [limitations](docs/limitations). The methodology will be updated over time.
+The next page summarizes the methodology. The following chapters dig into each step required to calculate the indicator in detail. The final chapter discusses important [limitations](docs/limitations).
 
 ### Dashboard
 
