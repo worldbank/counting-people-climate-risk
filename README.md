@@ -12,7 +12,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 * Heatwaves
 * Tropical cyclones
 
-![Exposure to climate-related hazards](docs/images/RP100_exp_any_pct.png){ width="800" style="display: block; margin: 0 auto" }
+<img align="center" alt="Exposure" width="800" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/RP100_exp_any_pct.png?raw=true">
 
 <sup> Share of population exposed to above-threshold hazard events.
 
