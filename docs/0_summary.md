@@ -22,15 +22,15 @@ The hazard is the potential occurrence of a physical event that may cause welfar
 
 
 **Vulnerability** is assessed on seven dimensions:
-| Dimension                      | Threshold defining a vulnerable household                         |
-|--------------------------------|--------------------------------------------------------------------|
-| Income                         | Less than $2.15 (2017 PPP) per person per day                      |
-| Education                      | No member has completed primary education                          |
-| Access to finance              | No member has a bank or mobile money account                                    |
-| Access to social protection    | Does not benefit or contribute to a social protection program     |
-| Access to drinking water       | No access to improved drinking water                               |
-| Access to electricity          | No access to electricity                                           |
-| Access to services and markets | More than 2km from an all-season road and rural                    |
+| Dimension                      | Threshold defining a vulnerable household                      |
+|--------------------------------|----------------------------------------------------------------|
+| Income                         | Less than $2.15 (2017 PPP) per person per day                  |
+| Education                      | No member has completed primary education                      |
+| Access to finance              | No member has a bank or mobile money account                   |
+| Access to social protection    | Does not benefit or contribute to a social protection program  |
+| Access to drinking water       | No access to improved drinking water                           |
+| Access to electricity          | No access to electricity                                       |
+| Access to services and markets | More than 2km from an all-season road and rural                |
 
 Five steps to calculate the indicator are summarized below. The following chapters provide more detail.
 
