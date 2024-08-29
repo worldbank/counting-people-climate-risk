@@ -27,11 +27,13 @@ People at high risk from climate-related hazards are defined as those exposed to
 
 ### Methodology
 
-The next page summarizes the methodology. The following chapters dig into each step required to calculate the indicator in detail. The final chapter discusses important [limitations](docs/limitations).
+The next page summarizes the methodology. The following chapters dig into each step required to calculate the indicator in detail. The final chapter discusses important [limitations](docs/limitations). The methodology will be updated over time.
 
 ### Dashboard
 
-A [dashboard](docs/dashboard) is available to explore and download the data. The Vision Indicator is officially reported on the [Scorecard website](https://scorecard.worldbank.org/).
+A [dashboard](docs/dashboard) is available to explore and download the data. 
+
+The Vision Indicator is officially reported on the [Scorecard website](https://scorecard.worldbank.org/).
 
 ### Reproducibility
 
