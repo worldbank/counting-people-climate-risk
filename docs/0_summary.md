@@ -6,8 +6,6 @@ This page summarizes the method used to estimate the population at high risk fro
   <img width="250" alt="Framework" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png?raw=true">
 </p>
 
-![Framework](images/framework.png)
-
 The hazard is the potential occurrence of a physical event that may cause welfare impacts. Exposure is the presence of people in places that could be adversely affected. Vulnerability is the propensity or predisposition of these people to be adversely affected, or unable to cope with impacts. 
 
 **People at high risk from climate-related hazards** are defined as those exposed to any hazard and vulnerable on any dimension, based on specific thresholds. 
