@@ -46,11 +46,3 @@ a.current.reference.internal {
 #pst-back-to-top {
 	background-color: #3eacad;
 }
-
-img {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
