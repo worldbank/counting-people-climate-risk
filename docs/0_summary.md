@@ -3,7 +3,7 @@
 This page summarizes the method used to estimate the population at high risk from climate-related hazards Vision Indicator. The methodology adopts a widely used framework to assess risk in the context of climate change impacts. Risk is the potential for adverse consequences. Risks result from interactions between climate-related **hazards** with the **exposure** and **vulnerability** of the affected population to the hazards. 
 
 <p align="center">
-  <img width="250" alt="Framework" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png">
+  <img width="250" alt="Framework" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/framework.png?raw=true">
 </p>
 
 ![Framework](images/framework.png)
