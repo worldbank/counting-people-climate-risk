@@ -27,6 +27,12 @@ People at high risk from climate-related hazards are defined as those exposed to
 * 💡 Access to electricity
 * 🏥 Access to services and markets
 
+<p align="center">
+  <img width="600" alt="Vulnerability" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/vul_any_pct.png?raw=true">
+</p>
+
+<sup> Share of population vulnerable on any dimension.
+
 ### Methodology
 
 The next page summarizes the methodology. The following chapters dig into each step required to calculate the indicator in detail. The final chapter discusses important [limitations](docs/limitations).
