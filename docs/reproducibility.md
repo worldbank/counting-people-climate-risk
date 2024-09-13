@@ -35,9 +35,9 @@ code used to process them is included in the package.
 | Combined hazard and Degree of Urbanization               | `03.intermediate/Hazard/`  | TRUE         |                                                      |               |
 | RAI population                                           | `03.intermediate/RAI/`     | TRUE         |                                                      |               |
 
-A list of data files for each “Data.Name” is included in `spatial_data_files.csv`.
+A list of data files for each **Data.Name** is included in `spatial_data_files.csv`.
 
-“Fathom Global v2” flood hazard data was obtained from the World Bank Development Data Hub. The FATHOM Global Flood Hazard Data has been supplied to the World Bank under a perpetual license for internal use only. The data remains confidential to The World Bank and FATHOM Ltd. All terms of the General World Bank Data Policy for confidential data apply. The Data may not be resold or made publicly available. The Data may not be shared with subcontractors, external consultancies or any other firms or individuals beyond the World Bank without written specific agreement from FATHOM. FATHOM retains all Intellectual Property Rights in the Data. The full clause of caution that accompanies the Data and describes the limitations and uncertainties surrounding the Data must be read before using the Data. 
+**Fathom Global v2** flood hazard data was obtained from the World Bank Development Data Hub. The FATHOM Global Flood Hazard Data has been supplied to the World Bank under a perpetual license for internal use only. The data remains confidential to The World Bank and FATHOM Ltd. All terms of the General World Bank Data Policy for confidential data apply. The Data may not be resold or made publicly available. The Data may not be shared with subcontractors, external consultancies or any other firms or individuals beyond the World Bank without written specific agreement from FATHOM. FATHOM retains all Intellectual Property Rights in the Data. The full clause of caution that accompanies the Data and describes the limitations and uncertainties surrounding the Data must be read before using the Data. 
 
 Within the World Bank, the Fathom Global flood hazard dataset can be requested from https://datacatalog.worldbank.org/int/search/dataset/0021728/Global-Flood-Hazard--FATHOM- A URL provides users with access to an internal SharePoint folder containing 231 .zip files, one for each country or region (AD_andorra.zip; AE_UAE.zip; …). These contain .tif format files for different return periods and flood types. Data for all flood types, return periods and regions are required. 
 
@@ -47,7 +47,7 @@ License: Custom license (see above).
 
 Citation: Sampson et al. (2015) 
 
-“Deltares Global Flood Map” coastal flood hazard data was obtained from The Microsoft Planetary Computer Data Catalog. The data is produced by Deltares and hosted by Microsoft via Azure Blob Storage. The “MERITDEM”, “90m” resolution version of data for the current climate (2018 sea level) are required for return periods ranging between 5 and 100 years. 
+**Deltares Global Flood Map** coastal flood hazard data was obtained from The Microsoft Planetary Computer Data Catalog. The data is produced by Deltares and hosted by Microsoft via Azure Blob Storage. The “MERITDEM”, “90m” resolution version of data for the current climate (2018 sea level) are required for return periods ranging between 5 and 100 years. 
 
 The direct download links are:
 https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/global/MERITDEM/90m/GFM_global_MERITDEM90m_2018slr_rp0005_masked.nc
@@ -62,7 +62,7 @@ License: Community Data License Agreement - Permissive, Version 1.0 https://cdla
 
 Citation: Deltares (2021)
 
-“FAO Historic Drought Frequency” data was obtained from FAO Agricultural Stress Index System. The data files were downloaded via Google Earth Engine after requesting access by sending an email to  giews1@fao.org, following the instructions here: https://www.fao.org/giews/earthobservation/access.jsp?lang=en The data is available with an open license allowing redistribution subject to specific terms (see below). 
+**FAO Historic Drought Frequency** data was obtained from FAO Agricultural Stress Index System. The data files were downloaded via Google Earth Engine after requesting access by sending an email to  `giews1@fao.org`, following the instructions here: https://www.fao.org/giews/earthobservation/access.jsp?lang=en The data is available with an open license allowing redistribution subject to specific terms (see below). 
 
 The cropland and pasture Historic Drought Frequency data files for season 1 and season 2, and both available thresholds (>30% land affected, >50% land affected) are required. At the time data was accessed, these covered 1984-2022.
 
@@ -74,7 +74,7 @@ Additional terms of use for datasets: https://www.fao.org/contact-us/terms/db-te
 
 Citation: FAO (2023)
 
-“STORM tropical cyclone wind speed return periods” data was obtained from https://doi.org/10.5281/zenodo.10931452 (Version v2). The global GeoTIFFs for the present-day scenario were derived with minimal processing from the dataset created by Bloemendaal et al (2023), released with a CC0 license.
+**STORM tropical cyclone wind speed return periods** data was obtained from https://doi.org/10.5281/zenodo.10931452 (Version v2). The global GeoTIFFs for the present-day scenario were derived with minimal processing from the dataset created by Bloemendaal et al (2023), released with a CC0 license.
 
 The STORM_FIXED_RETURN_PERIODS.zip (1.1 Gb) includes all data files. Only data files for the present day, baseline climate scenario are required for the analysis. These have the filename pattern: STORM_FIXED_RETURN_PERIODS_CONSTANT_{STORM_RP}_YR_RP.tif, where STORM_RP is ranges between 10 and 10000. 
 
@@ -84,7 +84,7 @@ License: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
 
 Citation: Russell (2024)
 
-“CCKP Environmental Stress Index (ESI) max 5-day heatwave” data was obtained from the World Bank Climate Change Knowledge Portal (CCKP) team who produced the dataset for this project. The data are based on the ECMWF ERA5 reanalysis (Hersbach H. et al. 2017), which is distributed with an open license (CC BY 4.0). These ESI data files will be provided by the project team on request and are not available from the CCKP platform. The “median” version data files for return periods ranging between 5 and 100 years are required. 
+**CCKP Environmental Stress Index (ESI) max 5-day heatwave** data was obtained from the World Bank Climate Change Knowledge Portal (CCKP) team who produced the dataset for this project. The data are based on the ECMWF ERA5 reanalysis (Hersbach H. et al. 2017), which is distributed with an open license (CC BY 4.0). These ESI data files will be provided by the project team on request and are not available from the CCKP platform. The “median” version data files for return periods ranging between 5 and 100 years are required. 
 
 The .nc format files (5 MB) should be saved here: `02.input/heatwave_cckp/` 
 
@@ -92,7 +92,7 @@ License: Creative Commons Attribution 4.0 International License (CC BY 4.0) http
 
 Citation: World Bank, Climate Change Knowledge Platform (2024)
 
-“GHS-POP - R2023A” gridded population data is obtained from the European Commission, Joint Research Centre (JRC) Global Human Settlement Layer (GHSL), available from: https://human-settlement.emergency.copernicus.eu/download.php?ds=pop. The “2020” epoch global data file with “3 arcsec” resolution (“WGS84” coordinate system) is required.  This data is required for replication from the intermediate spatial data.
+**GHS-POP - R2023A** gridded population data is obtained from the European Commission, Joint Research Centre (JRC) Global Human Settlement Layer (GHSL), available from: https://human-settlement.emergency.copernicus.eu/download.php?ds=pop. The “2020” epoch global data file with “3 arcsec” resolution (“WGS84” coordinate system) is required.  This data is required for replication from the intermediate spatial data.
 
 The .tif format data file (11 Gb) should be saved here: `02.input/population_ghsl/`
 
@@ -100,7 +100,7 @@ License: The GHSL has been produced by the EC JRC as open and free data. Reuse i
 
 Citation: Schiavina et al. (2023)
 
-“GHS-SMOD - R2023A” gridded degree of urbanization data is obtained from the European Commission, Joint Research Centre (JRC) Global Human Settlement Layer (GHSL), available from: https://human-settlement.emergency.copernicus.eu/download.php?ds=smod. The “2020” epoch global data files with “1 km” resolution (“Mollweide” coordinate system) is required.  
+**GHS-SMOD - R2023A** gridded degree of urbanization data is obtained from the European Commission, Joint Research Centre (JRC) Global Human Settlement Layer (GHSL), available from: https://human-settlement.emergency.copernicus.eu/download.php?ds=smod. The “2020” epoch global data files with “1 km” resolution (“Mollweide” coordinate system) is required.  
 
 The .tif format data file (18 Mb) should be saved here: `02.input/degurban_ghsl/` 
 
@@ -108,7 +108,7 @@ License: The GHSL has been produced by the EC JRC as open and free data. Reuse i
 
 Citation: Schiavina M., Melchiorri M., Pesaresi M. (2023)
 
-“SDSN RAI Inaccessibility Index” data is obtained from the UN Sustainable Development Solutions Network (SDSN). The dataset is produced as part of tracking SDG Indicator 9.1.1 Rural Access Index by the UN SDSN and provided directly to the project team.  The data can be accessed through Google Earth Engine using the code and instructions at https://gee-community-catalog.org/projects/rai/, and is hosted by the “awesome-gee-community-catalog”.
+**SDSN RAI Inaccessibility Index** data is obtained from the UN Sustainable Development Solutions Network (SDSN). The dataset is produced as part of tracking SDG Indicator 9.1.1 Rural Access Index by the UN SDSN and provided directly to the project team.  The data can be accessed through Google Earth Engine using the code and instructions at https://gee-community-catalog.org/projects/rai/, and is hosted by the awesome-gee-community-catalog.
 
 The .tif format file (5.8 GB) should be saved here: `02.input/rai_sdsn/` 
 
@@ -116,7 +116,7 @@ License: Creative Commons Attribution Noncommercial Share Alike License (CC BY-N
 
 Citation: Guilherme et al. (2024); Roy et al. (2024)
 
-“World Bank AM24 VUL boundaries” data were produced by the project team. The dataset is derived from administrative boundary data sources including Global Administrative Unit Layers (GAUL) 2015, Nomenclature of Territorial Units for Statistics (NUTS), GADM, United Nations Common Operational Datasets, and National Statistical Offices (NSOs). The boundary data is required for replication from the intermediate spatial data.
+**World Bank AM24 VUL boundaries** data were produced by the project team. The dataset is derived from administrative boundary data sources including Global Administrative Unit Layers (GAUL) 2015, Nomenclature of Territorial Units for Statistics (NUTS), GADM, United Nations Common Operational Datasets, and National Statistical Offices (NSOs). The boundary data is required for replication from the intermediate spatial data.
 
 The replication package includes the .gpkg format file (110 MB) here: `02.input/boundaries/`
 
@@ -126,9 +126,9 @@ Citation: World Bank (2024)
 
 Intermediate spatial data
 
-“Combined hazard and Degree of Urbanization” intermediate data is included for replication. It is derived from the input datasets using code included in the replication package. The data includes one .tif format file (1.4 GB) and auxiliary .csv files here: `03.intermediate/Hazard/`
+**Combined hazard and Degree of Urbanization** intermediate data is included for replication. It is derived from the input datasets using code included in the replication package. The data includes one .tif format file (1.4 GB) and auxiliary .csv files here: `03.intermediate/Hazard/`
 
-“RAI population” is provided as intermediate data for replication. It is derived from the input datasets using code included in the replication package. The .tif format data file (1.9 GB) is located here: `03.intermediate/RAI/`
+**RAI population** is provided as intermediate data for replication. It is derived from the input datasets using code included in the replication package. The .tif format data file (1.9 GB) is located here: `03.intermediate/RAI/`
 
 ### Household survey and other data
 
@@ -145,37 +145,37 @@ Intermediate spatial data
 | Poverty and Inequality Platform                       | `03.intermediate/PIPinput` | TRUE         | World Bank (2024), Poverty and Inequality Platform | September 2024 |
 |                                                       |                          |              |                                                    |                |
 
-“Joint Monitoring Programme (JMP)” data on access to drinking water was obtained from the WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP), available from: https://washdata.org/data/downloads#WLD. R scripts included in 02.input/jmp/code/ were used to download and combine data for all countries from the “country file” and “inequality” excel files available from the website. The combined formatted .xlsx data file is included in the replication package here: 02.input/jmp/data/
+**Joint Monitoring Programme (JMP)** data on access to drinking water was obtained from the WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP), available from: https://washdata.org/data/downloads#WLD. R scripts included in 02.input/jmp/code/ were used to download and combine data for all countries from the “country file” and “inequality” excel files available from the website. The combined formatted .xlsx data file is included in the replication package here: 02.input/jmp/data/
 
 License: Creative Commons Attribution 4.0 International License (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 
 Citation: WHO/UNICEF Joint Monitoring Programme (2024)
 
-“Global Electricity Database” data on electricity access was obtained from the IEA, IRENA, UNSD, World Bank and WHO 2023 Tracking SDG 7: The Energy Progress Report. The data are available from: https://trackingsdg7.esmap.org/downloads. The SDG7.1.1 - Access to Electricity.xlsx file was downloaded and is included in the replication package here: 02.input/GED/
+**Global Electricity Database** data on electricity access was obtained from the IEA, IRENA, UNSD, World Bank and WHO 2023 Tracking SDG 7: The Energy Progress Report. The data are available from: https://trackingsdg7.esmap.org/downloads. The SDG7.1.1 - Access to Electricity.xlsx file was downloaded and is included in the replication package here: 02.input/GED/
 
 License: Creative Commons Attribution 4.0 International License (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 
 Citation: IEA, IRENA, UNSD, World Bank, WHO (2023).
 
-“UNESCO” data on education completion was obtained from the UNESCO Institute for Statistics (UIS), available from the UIS.Stat Bulk Data Download Service: https://apiportal.uis.unesco.org/bdds.
+**UNESCO** data on education completion was obtained from the UNESCO Institute for Statistics (UIS), available from the UIS.Stat Bulk Data Download Service: https://apiportal.uis.unesco.org/bdds.
 
 License:  Attribution-Sharealike 3.0 Intergovernmental Organization (CC BY-SA 3.0 IGO) https://creativecommons.org/licenses/by-sa/3.0/igo/ 
 
 Citation: UNESCO Institute for Statistics (UIS) (2024).
 
-“Findex” data on financial inclusion was obtained from the World Bank Microdata Library. Registered uses can download the 2021 data file (in .dta format) from https://microdata.worldbank.org/index.php/catalog/4607. Before gaining access, users are asked to register and to read and agree to Public Use Files conditions (see below). The data file is included in the replication package here: 02.input/Findex/
+**Findex** data on financial inclusion was obtained from the World Bank Microdata Library. Registered uses can download the 2021 data file (in .dta format) from https://microdata.worldbank.org/index.php/catalog/4607. Before gaining access, users are asked to register and to read and agree to Public Use Files conditions (see below). The data file is included in the replication package here: 02.input/Findex/
 
 License:  Public Use Files, see: https://microdata.worldbank.org/index.php/terms-of-use 
 
 Citation: Demirgüç-Kunt et al. (2022); Development Research Group, Finance and Private Sector Development Unit (2022).
 
-“WDI” World Development Indicators (WDI) data was obtained from the World Bank, available using the API through the Stata package wbopendata and R package wbstats. Data for the following variables are called from the code: EG.ELC.ACCS.ZS, SP.POP.TOTL.
+**WDI** World Development Indicators (WDI) data was obtained from the World Bank, available using the API through the Stata package wbopendata and R package wbstats. Data for the following variables are called from the code: EG.ELC.ACCS.ZS, SP.POP.TOTL.
 
 License:  Creative Commons Attribution 4.0 International License (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 
 Citation: World Bank (2024). 
 
-“Global Monitoring Database (GMD)” data is obtained from the World Bank Datalibweb platform using the Stata package datalibweb. Access to the Survey data in the Global Monitoring Database (GMD) is provided only for World Bank staff working with Bank managed computers, and the data is not available for external users. Most of the surveys in the GMD is available internally, however for some data users need to request access to the data in the Datalibweb platform. Users need to install the datalibweb ado package following the instructions in the About tab of the Datalibweb website.
+**Global Monitoring Database (GMD)** data is obtained from the World Bank Datalibweb platform using the Stata package datalibweb. Access to the Survey data in the Global Monitoring Database (GMD) is provided only for World Bank staff working with Bank managed computers, and the data is not available for external users. Most of the surveys in the GMD is available internally, however for some data users need to request access to the data in the Datalibweb platform. Users need to install the datalibweb ado package following the instructions in the About tab of the Datalibweb website.
 
 License:  Restricted access, exact license varies across surveys.
 
@@ -183,29 +183,31 @@ Citation: World Bank (2024).
 
 Additional GMD Datasets: 
  
-1.  Survey_price_framework.dta 
+1. Survey_price_framework.dta 
+
 Source: Datalibweb, World Bank 
 Access Code:  dlw, country(support) year(2005) type(gmdraw) filename(Survey_price_framework.dta) files surveyid(Support_2005_CPI_v11_M)
 Location: After running the code, add the dataset to 02.input/Survey_price_framework.dta. 
 
-2.Final_CPI_PPP_to_be_used.dta
-Source: Datalibweb, World Bank 
+2. Final_CPI_PPP_to_be_used.dta
 
+Source: Datalibweb, World Bank 
 Access Code: dlw, country(support) year(2005) type(gmdraw) filename(Final_CPI_PPP_to_be_used.dta) files surveyid(Support_2005_CPI_v11_M)
 Location: After running the code, add the dataset to 02.input/Final_CPI_PPP_to_be_used.dta. 
+
 3. repo_AM24all.dta
+
 Source: Datalibweb, World Bank 
 Access Code: dlw, country(support) year(2005) type(gmdraw) filename(repo_AM24all.dta) files surveyid(Support_2005_CPI_v11_M)
 Location: After running the code, add the dataset to 02.input/repo_AM24all.dta.
 
-
-“Luxembourg Income Study Database (LIS)” data was obtained using the remote-execution system LISSY. More details can be found at https://www.lisdatacenter.org/data-access/lissy/.
+**Luxembourg Income Study Database (LIS)** data was obtained using the remote-execution system LISSY. More details can be found at https://www.lisdatacenter.org/data-access/lissy/.
 
 License:  There are restrictions on data use and access. Users must agree to the LIS Microdata User Agreement. 
 
 Citation: Luxembourg Income Study (2024).
 
-“Poverty and Inequality Platform” data was obtained from the World Bank Poverty and Inequality Platform (PIP) using the Stata package pip to access the API. Documentation for the package is available here: https://worldbank.github.io/pip/.
+**Poverty and Inequality Platform** data was obtained from the World Bank Poverty and Inequality Platform (PIP) using the Stata package pip to access the API. Documentation for the package is available here: https://worldbank.github.io/pip/.
 
 License:  Creative Commons Attribution 4.0 International License (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 
@@ -317,6 +319,9 @@ Run time: > 14 days
 | 25       | `2-8 Get tables for CSC.do`                         | Prepare Scorecard table                                     |
 
 ## Folder structure
+
+![Folder structure](/images/folders.png)
+
 
 ├── 01.code
 │   ├── R
