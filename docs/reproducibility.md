@@ -320,49 +320,7 @@ Run time: > 14 days
 
 ## Folder structure
 
-![Folder structure](/images/folders.png)
-
-
-├── 01.code
-│   ├── R
-│   │   └── renv
-│   ├── ado
-│   └── dofile
-├── 02.input
-│   ├── 2021
-│   ├── ASPIRE
-│   ├── CHN
-│   ├── Findex
-│   ├── GED
-│   ├── IND
-│   ├── UNESCO
-│   ├── boundaries
-│   ├── cyclone_storm
-│   ├── degurban_ghsl
-│   ├── drought_fao
-│   ├── flood_deltares
-│   ├── flood_fathom
-│   ├── heatwave_cckp
-│   ├── jmp
-│   │   ├── code
-│   │   └── data
-│   ├── population_ghsl
-│   └── rai_sdsn
-├── 03.intermediate
-│   ├── Exposure
-│   │   └── 2021
-│   ├── Hazard
-│   ├── LISoutput
-│   ├── Lineupcheck
-│   ├── Lineuplist
-│   ├── PIPinput
-│   ├── RAI
-│   └── Sim
-│       ├── 2021
-│       │   └── temp
-│       └── Vintages
-└── 04.output
-    └── For CSC
+![Folder structure](/docs/images/folders.png)
 
 ## References
 
