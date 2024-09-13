@@ -1,95 +1,131 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+########################################################################
+#
+# Based on DIME .gitignore template version 2.0
+#
+########################################################################
 
-# C extensions
-*.so
+#######################
+# Start by ignoring everything, and below we are explicitly saying
+# what to not ignore
+*
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+#######################
+# List of files with GitHub functionality anywhere in the repo
+# that we do not want to ignore
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# These files include GitHub settings
+!.gitignore
+!.gitattributes
+!.env.example
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+!.reproducibility_report_RR_2024_WLD_175-v02.pdf
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Git placeholder file (to commit empty folders)
+!/**/*.gitkeep
 
-# Translations
-*.mo
-*.pot
+# Keep markdown files used for documentation on GitHub
+!README.md
+!CONTRIBUTING.md
+!LICENSE*
 
-# Django stuff:
-*.log
+* Unignore reproot files - see https://dime-worldbank.github.io/repkit/articles/reproot-files.html
+!reproot*.yaml
 
-# Sphinx documentation
-docs/_build/
+#######################
+# For performance reasons, if a folder is already ignored, then
+# GitHub does not check the content for that folder for matches
+# with additional rules. The line below includes folder in the
+# top folder (but not their content), so that anything matching
+# the rules below will still not be ignored.
+!*/
 
-# PyBuilder
-target/
+#######################
+# The following file types are code that should always be
+# included no matter where in the repository folder they are
+# located unless you explicitly ignore that folder
 
-# DotEnv configuration
-.env
+# Stata
+!/**/*.do
+!/**/*.ado
+!/**/*.sthlp
+!/**/*.smcl
 
-# Database
-*.db
-*.rdb
+# R
+!/**/*.R
+!/**/*.Rmd
+!/**/*.Rproj
+!/**/*.qmd
+!/**/*.Rprofile
+!/**/renv/
 
-# Pycharm
-.idea
+# Still ignore user file for R projects
+.Rproj.user
 
-# VS Code
-.vscode/
+# LaTeX
+!/**/*.tex
+!/**/*.bib
 
-# Spyder
-.spyproject/
+# Python
+!/**/*.py
+!/**/*.ipynb
+!/**/requirements.txt
+!/**/Pipfile
+!/**/Pipfile.lock
+!/**/*.toml
+# Still ignore .ipynb files in checkpoint folders
+.ipynb_checkpoints
 
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
+# Matlab
+!/**/*.m
 
-# Mac OS-specific storage files
-.DS_Store
+# Markdown
+!/**/*.md
 
-# vim
-*.swp
-*.swo
+# Julia
+!/**/*.jl
 
-# Mypy cache
-.mypy_cache/
+#Files to create custom layout and functionality
+# in dashboards, markdown notebooks, bookdown etc.
+!/**/*.css
+!/**/*.js
+!/**/*.json
 
-# Jupyter Book
-_build/
+#Bash scripts
+!/**/*.sh
 
-# python-dotenv
-.env
+# Citations
+!/**/*.cff
 
-# setuptools-scm/
-src/*/_version.py
+# .yml and .yaml files
+# These files sometimes have credentials, so only unignore these lines by removing
+# the "#" below after you checked your .yml/.yaml files for sensitive content
+!/**/*.yml
+!/**/*.yaml
+
+#######################
+# Include some additional file formats in any output folder. You might have
+# to change the name of the Output folder to whatever it is called in your
+# project, but we strongly recommend that you only include these files in
+# a subset of the folders where you are certain no private data is ever stored.
+!/**/Output/**/*.txt
+!/**/Output/**/*.csv
+!/**/Output/**/*.xml
+!/**/images/**/*.eps
+!/**/images/**/*.svg
+!/**/images/**/*.png
+!/**/images/**/*.ico
+
+#######################
+# Include all the files with passwords or tokens here. All files named
+# password or passwords are with this template ignored no matter which
+# format you are using. Additionally, all content in any folder called
+# password or passwords are also ignored. NOTE that your project might be
+# using different names and then you must edit the lines below accordingly.
+password.*
+passwords.*
+password/
+passwords/
+token.*
+tokens.*
+token/
+tokens/

@@ -1,35 +1,16 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-//Load all data and check subnational data together with other data
 clear all
 tempfile data1 data2 data3 data4 class data1list data2a
 global rnd AM2024
 
-*global upath2 
-global lnlist 2010 2021
+global lnlist 2021 2021
 global circa 3
 
 local lnlist2 : subinstr global lnlist " " ",",all
 global lnystart = min(`lnlist2')
 global lnyend = max(`lnlist2')
 
-*global lnystart 2010
-*global lnyend 2010
+*global lnystart 2021
+*global lnyend 2021
 
 //Load survey list
 use "${upath2}\03.intermediate\Survey_varlist", clear
@@ -80,6 +61,7 @@ foreach ly1 of global lnlist {
 local start $lnystart
 local end $lnyend
 forv ly = `start'(1)`end' {	
+	  di "Processing year: `ly'"
 	gen sel`ly' = `ly' if year`ly'==1
 	forv j=1(1)${circa} {
 		//+ is prefered than -, and 1 is prefered than 2, so on

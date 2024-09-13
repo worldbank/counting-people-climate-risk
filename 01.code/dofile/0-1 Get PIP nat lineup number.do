@@ -1,7 +1,7 @@
 //Get PIP lineup numbers
 global dataout "${upath2}\03.intermediate\PIPinput\" 
 //only for Aug-Sep running
-global piptxt 
+global piptxt server(qa) version(20240627_2017_01_02_PROD)
 			  
 global ylist 2010 2015 2019 2020 2021 2022
 global plines 215 365 685 322 547 1027 430 730 1370

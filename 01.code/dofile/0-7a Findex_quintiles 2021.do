@@ -3,9 +3,6 @@ clear
 tempfile data1 dataall
 save `dataall', replace emptyok
 
-// ssc install gtools
-*global upath2 
-
 global input ${upath2}\02.input\
 
 *2021

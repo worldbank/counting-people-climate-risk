@@ -1,6 +1,5 @@
 //POP, PIP region, and income class
 clear
-*global upath2 
 
 tempfile pop pce gdp data1 data2 data3
 global ver 20240326_2017_01_02_PROD

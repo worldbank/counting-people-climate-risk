@@ -3,8 +3,6 @@ clear all
 tempfile data1 data2 data3 data4 class
 global rnd AM2024
 
-*global upath2 
-
 //load PIP pfw - one time.
 /*
 dlw, country(support) year(2005) type(gmdraw) filename(Survey_price_framework.dta) files surveyid(Support_2005_CPI_v11_M)

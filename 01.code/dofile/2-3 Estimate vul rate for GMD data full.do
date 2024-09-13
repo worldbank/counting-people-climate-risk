@@ -1,22 +1,3 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-//Load all data and check subnational data together with other data
-
 //GMD vul
 
 clear all
@@ -28,7 +9,7 @@ set varabbrev off
 //setting
 global rnd AM24
 global sim 100
-*global upath2 c:\Users\WB327173\OneDrive - WBG\Downloads\ECA\Global\Climate change and poverty\Vulnerable to poverty and climate 2.0\
+
 global reposource "${upath2}\02.input"
 global repotxt repo(use ${rnd}all) reporoot(${reposource})
 global lnyear 2021
@@ -36,7 +17,7 @@ global circa 3
 global plinelist 215 365 685
 
 cap log close
-log using "${upath2}\03.intermediate\Sim\\${lnyear}\\GMD_log_${lnyear}.txt", text replace
+*log using "${upath2}\03.intermediate\Sim\\${lnyear}a\\GMD_log_${lnyear}.txt", text replace
 local date: di %tdMon-DD-CCYY date("$S_DATE", "DMY")
 local user = "`c(username)'"
 local fdataall_ln Vul_dataall_${lnyear}_`date'
@@ -51,6 +32,9 @@ replace todo = 0 if todo==.
 //update manually
 replace level = "subnatid1" if level == "subnatid" & code=="KGZ" & surv_year==2010
 replace level = "subnatid" if level == "" & code=="UGA" & surv_year==2009
+replace surv_year = 2019 if code=="MOZ" & surv_year==2022
+replace rep_year = 2019 if code=="MOZ" & rep_year==2022
+replace level = "subnatid" if code=="MOZ" & rep_year==2019
 
 //Doing outside GMD: India, CHN, and LIS countries
 drop if (code=="CHN"|code=="IND") & ${lnyear}==2021
@@ -58,6 +42,9 @@ drop if (code=="CHN") & ${lnyear}==2010
 drop if strpos(survname,"-LIS")>0
 drop if mod=="HIST"
 drop if code=="SYR"
+
+keep if code == "UKR"
+
 replace ct_urban = 0 if code=="SYC" & surv_year==2018
 //add flag missing =4
 foreach var of varlist elec_flag water_flag sp_flag findex_flag edu_flag {
@@ -905,42 +892,42 @@ qui forv j=1(1)`allobs' {
 			**1a) Indicator: have no one with primary completion (completed 15+)
 			//All adults
 			global eduage 15
-			if "`=upper("`code'")'" == "UKR" { //2014		
-				global eduage 2 //2019
-				drop age 
-				*ren agecat age
-				//check whether it is string or not
-				//2019 only
-				gen age = 1 if agecat=="1 - Up to 18 years"
-				replace age = 2 if agecat=="2 - 18 - 35 years old"
-				replace age = 3 if agecat=="3 - 36 - 55 years old"
-				replace age = 4 if agecat=="4 - 56 - 59 years old"
-				replace age = 5 if agecat=="5 - 60 years and older"
+			//Special cases: only for the countries without continuous age: UKR NRU
+			if "`=upper("`code'")'" == "UKR" { 
+				//for all years from 2014-2020, each year has different agecat string categories.
+				if `surv_year'==2020 { //specific year from the listing file (GMD_list_YYYY)
+					global eduage 2 //2019
+					drop age 					
+					gen age = 1 if agecat=="1 - Up to 18 years"
+					replace age = 2 if agecat=="2 - 18 - 35 years old"
+					replace age = 3 if agecat=="3 - 36 - 55 years old"
+					replace age = 4 if agecat=="4 - 56 - 59 years old"
+					replace age = 5 if agecat=="5 - 60 years and older"
+				}
 			}
 			
 			if "`=upper("`code'")'" == "NRU" { //2012
-				global eduage 4 //2019
-				drop age 
-				*ren agecat age
-				//check whether it is string or not
-				//2012 only
-				gen age = .					
-				replace age = 1 if agecat=="0-4 years"
-				replace age = 2 if agecat=="5-9 years"
-				replace age = 3 if agecat=="10-14 years"
-				replace age = 4 if agecat=="15-19 years"
-				replace age = 5 if agecat=="20-24 years"
-				replace age = 6 if agecat=="25-29 years"
-				replace age = 7 if agecat=="30-34 years"
-				replace age = 8 if agecat=="35-39 years"
-				replace age = 9 if agecat=="40-44 years"
-				replace age = 10 if agecat=="45-49 years"
-				replace age = 11 if agecat=="50-54 years"
-				replace age = 12 if agecat=="55-59 years"
-				replace age = 13 if agecat=="60-64 years"
-				replace age = 14 if agecat=="65-69 years"
-				replace age = 15 if agecat=="70-74 years"
-				replace age = 16 if agecat=="75 and older"
+				if `surv_year'==2012 {
+					global eduage 4
+					drop age 					
+					gen age = .					
+					replace age = 1 if agecat=="0-4 years"
+					replace age = 2 if agecat=="5-9 years"
+					replace age = 3 if agecat=="10-14 years"
+					replace age = 4 if agecat=="15-19 years"
+					replace age = 5 if agecat=="20-24 years"
+					replace age = 6 if agecat=="25-29 years"
+					replace age = 7 if agecat=="30-34 years"
+					replace age = 8 if agecat=="35-39 years"
+					replace age = 9 if agecat=="40-44 years"
+					replace age = 10 if agecat=="45-49 years"
+					replace age = 11 if agecat=="50-54 years"
+					replace age = 12 if agecat=="55-59 years"
+					replace age = 13 if agecat=="60-64 years"
+					replace age = 14 if agecat=="65-69 years"
+					replace age = 15 if agecat=="70-74 years"
+					replace age = 16 if agecat=="75 and older"
+				}
 			}
 			
 			local eduflag = 0
@@ -1003,6 +990,10 @@ qui forv j=1(1)`allobs' {
 			la var educ_com_appl "School completion is applicable households, has $eduage or more individuals"
 			la var educ_com_appl_miss "School completion is applicable households but missing completion"
 			cap drop  dep_educ_com_lb educ_com_appl educ_com_appl_miss
+			
+			//drop fake age due to agecat string (only for the countries without continuous age)
+			if ("`=upper("`code'")'" == "UKR" & `surv_year'==2020) drop age
+			if ("`=upper("`code'")'" == "NRU" & `surv_year'==2012) drop age			
 		} //edu flag ==1		
 		if `edu_flag'==2 { //universal coverage
 			gen dep_educ_com = 0
@@ -1095,7 +1086,7 @@ qui forv j=1(1)`allobs' {
 		****************************************************		
 		cap gen rural = urban==0
 		
-		//get 15+ population size by quintile or quintile/urban rural only when age is available.
+		//get 15+ population size by quintile or quintile/urban rural only when cont. age is available.
 		forv a1=1(1)5 {
 			local n15q`a1'total = 1
 			local n15q`a1'urban = 1

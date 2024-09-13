@@ -1,22 +1,3 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-*! Ben James Brunckhorst - bbrunckhorst@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-
 clear
 version 18
 global rnd AM24
@@ -25,7 +6,6 @@ tempfile data1 data2 data3 fullctry missreg dataall dataall2 pop template
 save `dataall', replace emptyok
 save `dataall2', replace emptyok
 
-*global upath2 
 
 global fileout Tables_CSC.xlsx
 global fileout1 Tables_Country.xlsx
@@ -174,7 +154,7 @@ drop _merge
 save `template', replace
 
 use `data3', clear
-export excel code rate poor215_ln poor365_ln poor685_ln dep_educ_com dep_infra_elec dep_infra_impw dep_sp dep_fin pop_pip using "${upath2}\\04.output\For CSC\\${fileout1}", sheet(country_level) replace firstrow(variables) keepcellfmt
+export excel code rate poor215_ln poor365_ln poor685_ln dep_educ_com dep_infra_elec dep_infra_impw dep_sp dep_fin pop_pip_vul using "${upath2}\\04.output\For CSC\\${fileout1}", sheet(country_level) replace firstrow(variables) keepcellfmt
 *save "c:\Temp\Am24", replace
 
 //merge in the CSC listing
@@ -246,7 +226,7 @@ drop _merge
 sort section group
 order section group pop_full obs_full rate pop_share pop_cov obs_cov
 drop if group=="NA" & section=="Region"
-drop if pop_share < 50
+drop if pop_share < 40
 ren rate YR2021
 export excel using "${upath2}\\04.output\For CSC\\${fileout}", sheet(agg_level, replace) firstrow(variables) keepcellfmt
 

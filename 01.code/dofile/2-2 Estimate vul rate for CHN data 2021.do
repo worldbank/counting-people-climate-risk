@@ -1,29 +1,9 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-//Load all data and check subnational data together with other data
-
 //CHN vul 2021
 
 clear all
 tempfile data1 data2 data3 data4 dataall
 save `dataall', replace emptyok
             
-*global upath2 
 global sim 100
 
 //Get from PIP for the lineup year 2021

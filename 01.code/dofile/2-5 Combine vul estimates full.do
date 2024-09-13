@@ -1,29 +1,9 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-*! Ben James Brunckhorst - bbrunckhorst@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-//Load all data and check subnational data together with other data
-
 clear all
 
 //setting
 global rnd AM24
 global sim 100
-*global upath2 
+
 global lnyear 2021
 
 tempfile data1 pop geoiddata
@@ -98,7 +78,7 @@ ren sample2 data_group
 ren sample1 sample
 drop if sample=="MISSING"| sample=="NA" | sample=="Missing" | sample==""|sample==". –"|sample==".-"
 replace sample = "5 - Littoral" if sample=="6 - Littoral" & code=="CMR"
-
+replace sample = "10 - Maputo Province" if sample=="10 – Maputo Provincia" & code=="MOZ"
 //conflict MAR
 drop if (sample=="11 - Laayoune-Sakia Al Hamra"|sample=="12 - Dakhla-Oued Eddahab") & code=="MAR"
 drop if sample=="67 – Sevastopol City" & code=="RUS"
@@ -118,6 +98,9 @@ replace data_group = "subnat" if byvar=="subnatid" |byvar=="subnatid1"|byvar=="s
 
 replace data_group = "Urban" if data_group=="1" & byvar=="reg_rural"
 replace data_group = "Rural" if data_group=="0" & byvar=="reg_rural"
+
+replace data_group = "Urban" if data_group=="1.Urban" & byvar=="reg_rural"
+replace data_group = "Rural" if data_group=="0.Rural" & byvar=="reg_rural"
 
 replace data_group = "subnat" if data_group=="." & data=="Subnat" & (code=="AUS" | code=="GBR" | code=="TWN")
 replace data = "All" if (code=="AUS"|code=="GBR"|code=="TWN")

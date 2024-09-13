@@ -3,8 +3,6 @@ clear all
 tempfile data1 data2 data3 data4
 global rnd AM2024
 
-*global upath2 
-
 *ssc install wbopendata
 // Access to electricity (% of population)
 wbopendata, language(en - English) indicator(eg.elc.accs.zs) long clear 

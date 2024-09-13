@@ -5,8 +5,6 @@ save `dataall', replace emptyok
 
 global round AM24
 global popf code_inc_pop_regpcn.dta
-            
-*global upath2 
 
 global lnystart 2010
 global lnyend 2022

@@ -1,8 +1,6 @@
 //Electricity
 clear
 
-*global upath2 
-
 global circa 3
 global input ${upath2}\02.input\
 

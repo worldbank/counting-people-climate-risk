@@ -4,10 +4,10 @@
 #------------------------------------------------------------------------------#
 
 # install packages using renv
+# just the first time you run the package
 renv::restore()
 
-# set directory to root replication folder
-setwd("../../")
+setwd("C:/Temp/08.replication package/")
 
 # run from intermediate data?
 from_intermediate = TRUE

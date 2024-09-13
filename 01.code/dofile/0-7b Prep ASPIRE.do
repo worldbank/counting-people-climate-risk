@@ -1,6 +1,5 @@
 //ASPIRE - the data is only unique
 clear
-*global upath2 
 
 import excel using "${upath2}\02.input\ASPIRE\ASPIRE_data_touse.xlsx" , clear firstrow sheet(Data_ver2)
 

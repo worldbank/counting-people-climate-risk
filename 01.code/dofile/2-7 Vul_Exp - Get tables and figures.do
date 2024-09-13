@@ -1,29 +1,8 @@
-*! version 0.1.1  01Aug2024
-*! Copyright (C) World Bank 2024
-*! Minh Cong Nguyen - mnguyen3@worldbank.org
-*! Ben James Brunckhorst - bbrunckhorst@worldbank.org
-
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-
 clear
 version 18
 global rnd AM24
 global lnyear 2021
 tempfile data1 data2 data3 fullctry missreg dataall
-
-*global upath2 
 
 global fileout Tables.xlsx
 
@@ -57,7 +36,6 @@ collect: table (scenario hazard), statistic(sum multvul_215_exp exp_   totalpop)
 *collect: table (scenario hazard), statistic(sum multvul_215_exp exp_ multvul_215_expold all2vul_215_exp totalpop) nototal nformat(%4.2f)
 collect style header scenario hazard , title(hide)
 collect preview
-s
 collect export "${upath2}\\04.output\\${fileout}", sheet(WLD, replace) modify
 
 //Single dimension
@@ -76,7 +54,7 @@ collect style header code , title(hide)
 collect preview
 collect export "${upath2}\\04.output\\${fileout}", sheet(Country_any_RP100, replace) modify
 
-sss
+
 table (scenario hazard), statistic(sum multvul_215_exp  all2vul_215_exp totalpop) nototal nformat(%4.0f)
 
 collect: table (pcn_region_code  ) (exp2)  if (vul2==1 & line==215) , statistic(sum nvul ) nototal nformat(%4.0f)
