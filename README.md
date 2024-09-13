@@ -13,7 +13,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 * Tropical cyclones
 
 <p align="center">
-  <img width="600" alt="Exposure" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/RP100_exp_any_pct.png?raw=true">
+  <img width="500" alt="Exposure" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/RP100_exp_any_pct.png?raw=true">
 </p>
 
 <sup> Share of population exposed to above-threshold hazard events.
@@ -28,7 +28,7 @@ People at high risk from climate-related hazards are defined as those exposed to
 * 🏥 Access to services and markets
 
 <p align="center">
-  <img width="600" alt="Vulnerability" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/vul_any_pct.png?raw=true">
+  <img width="500" alt="Vulnerability" src="https://github.com/worldbank/counting-people-climate-risk/blob/main/docs/images/vul_any_pct.png?raw=true">
 </p>
 
 <sup> Share of population vulnerable on any dimension.
@@ -45,8 +45,8 @@ The Vision Indicator is officially reported on the [Scorecard website](https://s
 
 ### Reproducibility
 
-[Instructions to reproduce estimates](docs/reproducibility) and data availability statements are included on this site. Source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is included in the World Bank Reproducible Research Repository: [Reproducibility Certificate and Package](https://reproducibility.worldbank.org/index.php/home). Access to some input data is restricted.
+[Instructions to reproduce estimates](docs/reproducibility) and data availability statements are included on this site. Source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is published in the World Bank Reproducible Research Repository: [Reproducibility Package and Certificate](https://reproducibility.worldbank.org/index.php/catalog/186). Access to some input data is restricted.
 
 ### Suggested citation
 Please cite the methodology website as follows: 
-World Bank. 2024. "People at high risk from climate-related hazards". Version 2024-08. <https://worldbank.github.io/counting-people-climate-risk> 
+World Bank. 2024. "People at high risk from climate-related hazards". Version 2024-09. <https://worldbank.github.io/counting-people-climate-risk> 
