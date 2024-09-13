@@ -33,9 +33,8 @@ The next page summarizes the methodology. The following chapters dig into each s
 
 ### Dashboard
 
-A [dashboard](docs/dashboard) is available to explore and download the data. 
-
 The Vision Indicator is officially reported on the [Scorecard website](https://scorecard.worldbank.org/).
+A [dashboard](docs/dashboard) is available to explore and download the data. 
 
 ### Reproducibility
 
