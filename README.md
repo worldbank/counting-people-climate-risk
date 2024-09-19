@@ -38,7 +38,7 @@ A [dashboard](docs/dashboard.md) is available to explore and download the data.
 
 ### Reproducibility
 
-[Instructions to reproduce estimates](/docs/reproducibility.md) and data availability statements are included on this site. Source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is published in the World Bank Reproducible Research Repository: [Reproducibility Package and Certificate](https://reproducibility.worldbank.org/index.php/catalog/186). Access to some input data is restricted.
+[Instructions to reproduce estimates](/docs/reproducibility.md) and data availability statements are included on this site. Source code is available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk). The replication package has been verified and is published in the World Bank Reproducible Research Repository: [Reproducibility package](https://reproducibility.worldbank.org/index.php/catalog/186). Access to some input data is restricted.
 
 ### Suggested citation
 Please cite the methodology website as follows: 
