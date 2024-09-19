@@ -1,4 +1,4 @@
-# People at high risk from climate-related hazards
+# Counting people at high risk from climate-related hazards
 
 This site describes the methodology implemented by the World Bank to calculate the percentage of people at high risk from climate-related hazards, a [World Bank Group Scorecard Vision Indicator](https://scorecard.worldbank.org/en/scorecard/our-vision#planet). 
 
