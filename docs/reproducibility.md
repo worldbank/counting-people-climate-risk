@@ -1,7 +1,5 @@
 # Reproducibility package
 
-## !UNDER CONSTRUCTION!
-
 A replication package has been verified and published in the World Bank Reproducible Research Repository: [Reproducibility package for Climate Risk Scorecard Vision Indicator 2021](https://reproducibility.worldbank.org/index.php/catalog/186). The package includes all code and partial data to estimate the indicator. Code files are also available from the [Github repository](https://github.com/worldbank/counting-people-climate-risk).
 
 Data availability statements and instructions to replicate results are provided in the package [README](https://reproducibility.worldbank.org/index.php/catalog/186/download/530/README.pdf) and duplicated below.
